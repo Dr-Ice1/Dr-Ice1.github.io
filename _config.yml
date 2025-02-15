@@ -1,0 +1,5 @@
+title: Advanced Calculus Notes
+description: A collection of advanced calculus notes and resources.
+theme: minima
+plugins:
+  - jekyll-feed
