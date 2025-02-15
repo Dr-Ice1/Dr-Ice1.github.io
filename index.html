@@ -1,142 +1,84 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Advanced Calculus Notes</title>
-    <!-- Include the marked.js library -->
-    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
-</head>
-<body>
-    <h1>Welcome to Advanced Calculus</h1>
-    <p>Click below to view the notes:</p>
-    <a href="#" onclick="loadMarkdown()">View Notes</a>
-
-    <!-- This is where the markdown content will be rendered -->
-    <div id="markdown-content">---
-layout: default
----
-
-# Advanced Calculus
-## TN1410
-### TU Delft; 10/02/2025-//2025
-
-[TOC]
-
-#### Resources
-1. <a href="https://brightspace.tudelft.nl/d2l/le/content/682908/viewContent/3912024/View" target="_blank">https://brightspace.tudelft.nl/d2l/le/content/682908/viewContent/3912024/View</a> <a name='res1'></a> Formula sheet
-2. <a href="https://brightspace.tudelft.nl/d2l/le/content/682908/viewContent/3912047/View" target="_blank">https://brightspace.tudelft.nl/d2l/le/content/682908/viewContent/3912047/View</a> Lesson 1, Laplace, solving DEs. 
-
-
-
-
-### $\mathcal{L}$aplace Transformation
-
-#### Definition
-The Laplace transformation of $f(t)$ becomes $F(s)$ in this way:
-$$
-\begin{equation*}
-    \mathcal{L}\{f(t)\}(s)=F(s)=\int_0^{\infty} e^{-st}f(t) \, \text{d}t
-\end{equation*}
-$$
-
-We must know how to find the Laplace transformed of a function using the definition, but we do have a list of transformations for differential equations<sup style="color: black;"><b>[1](#res1)</b></sup>.
-
-#### Characteristics
-
-- $\mathcal{L}\{f_1(t)\}(s)=\mathcal{L}\{f_2\}(s) \implies f_1=f_2$*
-- $\mathcal{L}\{c_1f_1(t)+c_2f_2(t)\}(s)=c_1\mathcal{L}\{f_1(t)\}(s)+c_2\mathcal{L}\{f_2(t)\}(s)$
-- $\mathcal{L}\{f^{(n)}\}(s)=s^n\mathcal{L}\{f(t)\}(s)-s^{n-1}f(0)-\cdots-sf^{(n-2)}(0)-f^{(n-1)}(0)$
-
-#### Applications
-
-We can use Laplace transformations to solve differential equations<sup style="color: black;"><b></b></sup>. 
-
-### Step function
-
-#### Definition
-of the Heaviside function $u_c$
-
-$$
-u_c(t)=\begin{cases} 
-0, & 0 \leq t < c \\ 
-1, & c \leq t < \infty
+<h1 id="advanced-calculus">Advanced Calculus</h1>
+<h2 id="tn1410">TN1410</h2>
+<h3 id="tu-delft-10022025-2025">TU Delft; 10/02/2025-//2025</h3>
+<p>[TOC]</p>
+<h4 id="resources">Resources</h4>
+<ol type="1">
+<li><a href="https://brightspace.tudelft.nl/d2l/le/content/682908/viewContent/3912024/View" target="_blank">https://brightspace.tudelft.nl/d2l/le/content/682908/viewContent/3912024/View</a>
+<a name='res1'></a> Formula sheet</li>
+<li><a href="https://brightspace.tudelft.nl/d2l/le/content/682908/viewContent/3912047/View" target="_blank">https://brightspace.tudelft.nl/d2l/le/content/682908/viewContent/3912047/View</a>
+Lesson 1, Laplace, solving DEs.</li>
+</ol>
+<h3 id="mathcallaplace-transformation"><span
+class="math inline">ℒ</span>aplace Transformation</h3>
+<h4 id="definition">Definition</h4>
+<p>The Laplace transformation of <span
+class="math inline"><em>f</em>(<em>t</em>)</span> becomes <span
+class="math inline"><em>F</em>(<em>s</em>)</span> in this way: <span
+class="math display">ℒ{<em>f</em>(<em>t</em>)}(<em>s</em>) = <em>F</em>(<em>s</em>) = ∫<sub>0</sub><sup>∞</sup><em>e</em><sup>−<em>s</em><em>t</em></sup><em>f</em>(<em>t</em>) d<em>t</em></span></p>
+<p>We must know how to find the Laplace transformed of a function using
+the definition, but we do have a list of transformations for
+differential equations<sup style="color: black;"><b><a
+href="#res1">1</a></b></sup>.</p>
+<h4 id="characteristics">Characteristics</h4>
+<ul>
+<li><span
+class="math inline">ℒ{<em>f</em><sub>1</sub>(<em>t</em>)}(<em>s</em>) = ℒ{<em>f</em><sub>2</sub>}(<em>s</em>) ⟹ <em>f</em><sub>1</sub> = <em>f</em><sub>2</sub></span>*</li>
+<li><span
+class="math inline">ℒ{<em>c</em><sub>1</sub><em>f</em><sub>1</sub>(<em>t</em>) + <em>c</em><sub>2</sub><em>f</em><sub>2</sub>(<em>t</em>)}(<em>s</em>) = <em>c</em><sub>1</sub>ℒ{<em>f</em><sub>1</sub>(<em>t</em>)}(<em>s</em>) + <em>c</em><sub>2</sub>ℒ{<em>f</em><sub>2</sub>(<em>t</em>)}(<em>s</em>)</span></li>
+<li><span
+class="math inline">ℒ{<em>f</em><sup>(<em>n</em>)</sup>}(<em>s</em>) = <em>s</em><sup><em>n</em></sup>ℒ{<em>f</em>(<em>t</em>)}(<em>s</em>) − <em>s</em><sup><em>n</em> − 1</sup><em>f</em>(0) − ⋯ − <em>s</em><em>f</em><sup>(<em>n</em>−2)</sup>(0) − <em>f</em><sup>(<em>n</em>−1)</sup>(0)</span></li>
+</ul>
+<h4 id="applications">Applications</h4>
+<p>We can use Laplace transformations to solve differential
+equations<sup style="color: black;"><b></b></sup>.</p>
+<h3 id="step-function">Step function</h3>
+<h4 id="definition-1">Definition</h4>
+<p>of the Heaviside function <span
+class="math inline"><em>u</em><sub><em>c</em></sub></span></p>
+<p><span class="math display">$$
+u_c(t)=\begin{cases}
+0, &amp; 0 \leq t &lt; c \\
+1, &amp; c \leq t &lt; \infty
 \end{cases}
-$$
-
-#### Theorem
-
-$$
-\begin{equation*}
-    \mathcal{L}\{u_c(t)f(t)\}(s)=e^{-cs}\mathcal{L}\{f(t+c)\}(s)
-\end{equation*}
-$$
-
-On the formula sheet we can find a slightly different version of the same theorem.
-
-#### Observation
-
-$$
+$$</span></p>
+<h4 id="theorem">Theorem</h4>
+<p><span
+class="math display">ℒ{<em>u</em><sub><em>c</em></sub>(<em>t</em>)<em>f</em>(<em>t</em>)}(<em>s</em>) = <em>e</em><sup>−<em>c</em><em>s</em></sup>ℒ{<em>f</em>(<em>t</em>+<em>c</em>)}(<em>s</em>)</span></p>
+<p>On the formula sheet we can find a slightly different version of the
+same theorem.</p>
+<h4 id="observation">Observation</h4>
+<p><span class="math display">$$
 \begin{align*}
     f(t)=\begin{cases}
-        f_1(t)&a\leq t<b,\\
-        f_2(t)&b\leq t<c,\\
-        f_3(t)&c\leq t<d,\\
+        f_1(t)&amp;a\leq t&lt;b,\\
+        f_2(t)&amp;b\leq t&lt;c,\\
+        f_3(t)&amp;c\leq t&lt;d,\\
         \cdots
     \end{cases}
 \end{align*}
-$$
-
-and we can write $f$ as following:
-
-$f(t)=f_1(t)(u_a(t)-u_b(t))+f_2(t)(u_b(t)-u_c(t))+f_3(t)(u_c(t)-u_d(t))+\cdots$
-
-
-#### Periodic functions
-
-Assume $p(t)$ is a periodic function with period $T$.
-
-Assume 
-$$
+$$</span></p>
+<p>and we can write <span class="math inline"><em>f</em></span> as
+following:</p>
+<p><span
+class="math inline"><em>f</em>(<em>t</em>) = <em>f</em><sub>1</sub>(<em>t</em>)(<em>u</em><sub><em>a</em></sub>(<em>t</em>)−<em>u</em><sub><em>b</em></sub>(<em>t</em>)) + <em>f</em><sub>2</sub>(<em>t</em>)(<em>u</em><sub><em>b</em></sub>(<em>t</em>)−<em>u</em><sub><em>c</em></sub>(<em>t</em>)) + <em>f</em><sub>3</sub>(<em>t</em>)(<em>u</em><sub><em>c</em></sub>(<em>t</em>)−<em>u</em><sub><em>d</em></sub>(<em>t</em>)) + ⋯</span></p>
+<h4 id="periodic-functions">Periodic functions</h4>
+<p>Assume <span class="math inline"><em>p</em>(<em>t</em>)</span> is a
+periodic function with period <span
+class="math inline"><em>T</em></span>.</p>
+<p>Assume <span class="math display">$$
 f(t)=
-\begin{cases} 
-p(t), & 0\leq t<T\\
-0, & otherwise
+\begin{cases}
+p(t), &amp; 0\leq t&lt;T\\
+0, &amp; otherwise
 \end{cases}
-$$
-
-Then
-
-$$
+$$</span></p>
+<p>Then</p>
+<p><span class="math display">$$
 \begin{align*}
-    p(t)&=\sum_{k=0}^{\infty}f(t-kT)u_{kT}(t),\\
-    \mathcal{L}\{p(t)\}(s)&=F(s)\sum_{k=0}^{\infty}e^{-kTs}\stackrel{\text{s>0}}{=}\frac{F(s)}{1-e^{-sT}},\\
+    p(t)&amp;=\sum_{k=0}^{\infty}f(t-kT)u_{kT}(t),\\
+    \mathcal{L}\{p(t)\}(s)&amp;=F(s)\sum_{k=0}^{\infty}e^{-kTs}\stackrel{\text{s&gt;0}}{=}\frac{F(s)}{1-e^{-sT}},\\
     \text{where,}\\
-    F(s)&=\mathcal{L}\{f(t)\}(s)
+    F(s)&amp;=\mathcal{L}\{f(t)\}(s)
 \end{align*}
-$$
-
-</div>
-
-    <script>
-        // Function to load the markdown file and render it as HTML
-        function loadMarkdown() {
-            // Fetch the markdown file (TN1410.md)
-            fetch('TN1410.md')
-                .then(response => response.text())  // Get the text from the markdown file
-                .then(text => {
-                    // Use the 'marked' library to convert the markdown to HTML
-                    const htmlContent = marked(text);
-                    
-                    // Insert the HTML content into the page
-                    document.getElementById('markdown-content').innerHTML = htmlContent;
-                })
-                .catch(error => {
-                    console.error('Error loading markdown file:', error);
-                    document.getElementById('markdown-content').innerHTML = '<p>Sorry, there was an error loading the notes.</p>';
-                });
-        }
-    </script>
-</body>
-</html>
-
+$$</span></p>
