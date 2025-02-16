@@ -99,30 +99,16 @@
                     <li><a href="articles/article3.html">Article 3</a></li>
                 </ul>
             </li>
+            <li class="dropdown">
+                <a href="#">School ▼</a>
+                <ul class="dropdown-content">
+                    <li><a href="school/mathematics/TN1410.html">TN1410</a></li>
+                </ul>
+            </li>
+
         </ul>
     </nav>
 
-    <div class="container">
-        <h1>Recent Articles</h1>
-        <ul id="recent-articles" class="article-list"></ul>
-    </div>
-
-    <script>
-        // Array of articles (modify as needed)
-        const articles = [
-            { title: "Understanding JavaScript Closures", url: "articles/article1.html", date: "Jan 10, 2025" },
-            { title: "Introduction to CSS Flexbox", url: "articles/article2.html", date: "Jan 5, 2025" },
-            { title: "How to Deploy a Website on GitHub Pages", url: "articles/article3.html", date: "Dec 30, 2024" }
-        ];
-
-        // Populate recent articles dynamically
-        const list = document.getElementById("recent-articles");
-        articles.forEach(article => {
-            const li = document.createElement("li");
-            li.innerHTML = `<a href="${article.url}">${article.title}</a> - ${article.date}`;
-            list.appendChild(li);
-        });
-    </script>
-<script src="assets/script.js"></script>
+   <script src="assets/script.js"></script>
 </body>
 </html>
