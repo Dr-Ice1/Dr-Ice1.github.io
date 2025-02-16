@@ -1,3 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LaTeX in HTML</title>
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <script id="MathJax-script" async 
+            src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+    </script>
+</head>
+<body>
 <h1 id="advanced-calculus">Advanced Calculus</h1>
 <h2 id="tn1410">TN1410</h2>
 <h3 id="tu-delft-10022025-2025">TU Delft; 10/02/2025-//2025</h3>
@@ -9,33 +21,26 @@
 <li><a href="https://brightspace.tudelft.nl/d2l/le/content/682908/viewContent/3912047/View" target="_blank">https://brightspace.tudelft.nl/d2l/le/content/682908/viewContent/3912047/View</a>
 Lesson 1, Laplace, solving DEs.</li>
 </ol>
-<h3 id="mathcallaplace-transformation"><span
-class="math inline">ℒ</span>aplace Transformation</h3>
-<h4 id="definition">Definition</h4>
-<p>The Laplace transformation of <span
-class="math inline"><em>f</em>(<em>t</em>)</span> becomes <span
-class="math inline"><em>F</em>(<em>s</em>)</span> in this way: <span
-class="math display">ℒ{<em>f</em>(<em>t</em>)}(<em>s</em>) = <em>F</em>(<em>s</em>) = ∫<sub>0</sub><sup>∞</sup><em>e</em><sup>−<em>s</em><em>t</em></sup><em>f</em>(<em>t</em>) d<em>t</em></span></p>
-<p>We must know how to find the Laplace transformed of a function using
+    <h3>\(\mathcal{L}\)aplace Transformation</h3>
+    <h4 id="definition">Definition</h4>
+    <p>The Laplace transformation of \(f(t)\) becomes \(F(s)\) in this way: 
+      \[\mathcal{L}\{f(t)\}(s) = F(s) = \int_0^{\infty} e^{-st}f(t) \, \text{d}t \]
+    <p>We must know how to find the Laplace transformed of a function using
 the definition, but we do have a list of transformations for
 differential equations<sup style="color: black;"><b><a
 href="#res1">1</a></b></sup>.</p>
 <h4 id="characteristics">Characteristics</h4>
 <ul>
-<li><span
-class="math inline">ℒ{<em>f</em><sub>1</sub>(<em>t</em>)}(<em>s</em>) = ℒ{<em>f</em><sub>2</sub>}(<em>s</em>) ⟹ <em>f</em><sub>1</sub> = <em>f</em><sub>2</sub></span>*</li>
-<li><span
-class="math inline">ℒ{<em>c</em><sub>1</sub><em>f</em><sub>1</sub>(<em>t</em>) + <em>c</em><sub>2</sub><em>f</em><sub>2</sub>(<em>t</em>)}(<em>s</em>) = <em>c</em><sub>1</sub>ℒ{<em>f</em><sub>1</sub>(<em>t</em>)}(<em>s</em>) + <em>c</em><sub>2</sub>ℒ{<em>f</em><sub>2</sub>(<em>t</em>)}(<em>s</em>)</span></li>
-<li><span
-class="math inline">ℒ{<em>f</em><sup>(<em>n</em>)</sup>}(<em>s</em>) = <em>s</em><sup><em>n</em></sup>ℒ{<em>f</em>(<em>t</em>)}(<em>s</em>) − <em>s</em><sup><em>n</em> − 1</sup><em>f</em>(0) − ⋯ − <em>s</em><em>f</em><sup>(<em>n</em>−2)</sup>(0) − <em>f</em><sup>(<em>n</em>−1)</sup>(0)</span></li>
+      <li>\(\mathcal{L}\{f_1(t)\}(s) = \mathcal{L}\{f_2(t)\}(s) \implies f_1 = f_2\)<a href='www.example.com'>*</a></li>
+      <li>\(\mathcal{L}\{c_1f_1(t) + c_2f_2(t)\}(s) = c_1\mathcal{L}\{f_1(t)\}(s) + c_2\mathcal{L}\{f_2(t)\}(s)\)</li>
+      <li>\(\mathcal{L}\{f^{(n)}\}(s) = s^n\mathcal{L}\{f(t)\}(s) − s^{n−1}f(0) − \cdots − sf^{(n−2)}(0) − f^{(n−1)}(0)\)</li>
 </ul>
 <h4 id="applications">Applications</h4>
 <p>We can use Laplace transformations to solve differential
 equations<sup style="color: black;"><b></b></sup>.</p>
 <h3 id="step-function">Step function</h3>
 <h4 id="definition-1">Definition</h4>
-<p>of the Heaviside function <span
-class="math inline"><em>u</em><sub><em>c</em></sub></span></p>
+<p>of the Heaviside function \(u_c\)</p>
 <p><span class="math display">$$
 u_c(t)=\begin{cases}
 0, &amp; 0 \leq t &lt; c \\
@@ -58,14 +63,12 @@ same theorem.</p>
     \end{cases}
 \end{align*}
 $$</span></p>
-<p>and we can write <span class="math inline"><em>f</em></span> as
+<p>and we can write \(f\) as
 following:</p>
-<p><span
-class="math inline"><em>f</em>(<em>t</em>) = <em>f</em><sub>1</sub>(<em>t</em>)(<em>u</em><sub><em>a</em></sub>(<em>t</em>)−<em>u</em><sub><em>b</em></sub>(<em>t</em>)) + <em>f</em><sub>2</sub>(<em>t</em>)(<em>u</em><sub><em>b</em></sub>(<em>t</em>)−<em>u</em><sub><em>c</em></sub>(<em>t</em>)) + <em>f</em><sub>3</sub>(<em>t</em>)(<em>u</em><sub><em>c</em></sub>(<em>t</em>)−<em>u</em><sub><em>d</em></sub>(<em>t</em>)) + ⋯</span></p>
+<p>\(f(t)=f_1(t)(u_a(t)-u_b(t))+f_2(t)(u_b(t)-u_c(t))+f_3(t)(u_c(t)-u_d(t))+\cdots\)</p>
 <h4 id="periodic-functions">Periodic functions</h4>
-<p>Assume <span class="math inline"><em>p</em>(<em>t</em>)</span> is a
-periodic function with period <span
-class="math inline"><em>T</em></span>.</p>
+<p>Assume \(p(t)\) is a
+periodic function with period \(T\).</p>
 <p>Assume <span class="math display">$$
 f(t)=
 \begin{cases}
@@ -82,3 +85,12 @@ $$</span></p>
     F(s)&amp;=\mathcal{L}\{f(t)\}(s)
 \end{align*}
 $$</span></p>
+
+
+
+
+
+
+</body>
+</html>
+
