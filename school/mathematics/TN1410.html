@@ -91,9 +91,22 @@ $$</span></p>
 \end{align*}
 $$</span></p>
 
+<b>Example:</b>
+    <br>
+    <br>
 
+<div style="display: flex; align-items: center;">
+<img src="/graph.png" alt="alt" width='300' height='300'>
 
-
+<p>$$
+\begin{align*}
+p(t)&=f(t)+f(t-T)+f(t-2T)+\cdots\\
+    &=\sum_{k=0}^{\infty} f(t-kT)\cdot u_{kT}(t)
+        P(s)=\sum_{k=0}^{\infty} e^{-kTs} \mathcal{L}\{f(t)\}(s)\\
+        &=\mathcal{L}\{f(t)\}(s)\cdot \underbrace{\sum_{k=0}^{\infty} (e^{-Ts})^k}_{\text{}}
+\end{align*}
+$$</p>
+</div>
 
 
 </body>
