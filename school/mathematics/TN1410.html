@@ -4,35 +4,62 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TN1410 -- Advanced Calculus</title>
+    <style>
+      body {
+        padding-left: 20px; /* Adjust this value to add space from the left */
+      }
+    /* Style for headings with anchor links */
+      h1, h2, h3, h4, h5, h6 {
+        position: relative; /* Required for positioning the icon */
+      }
+
+      /* Add a link icon on hover */
+      h1:hover a:before,
+      h2:hover a:before,
+      h3:hover a:before,
+      h4:hover a:before,
+      h5:hover a:before,
+      h6:hover a:before {
+        content: " "; /* Link icon */
+        font-size: 0.8em;
+        margin-left: 1px;
+        text-decoration: none; /* Remove underline */
+      }
+
+      /* Remove default link styling */
+      h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
+        color: inherit; /* Inherit the heading color */
+        text-decoration: none; /* Remove underline */
+      }
+    </style>
     <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
     <script id="MathJax-script" async 
             src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
     </script>
 </head>
 <body>
-<h1 id="advanced-calculus">Advanced Calculus</h1>
-<h2 id="tn1410">TN1410</h2>
-<h3 id="tu-delft-10022025-2025">TU Delft; 10/02/2025-//2025</h3>
-<p>[TOC]</p>
+    <h1 id="advanced-calculus"><a href='#advanced-calculus'>Advanced Calculus</a></h1>
+    <h2 id="tn1410"><a href='#tn1410'>TN1410</a></h2>
+<h3 id="date"><a href='#date'>TU Delft; 10/02/2025-//2025</a></h3>
 
 <h2><a href='/index.html'>Main Page</a></h2>
 
-<h4 id="resources">Resources</h4>
+    <h4 id="resources"><a href='#resources'>Resources</a></h4>
 <ol type="1">
 <li><a href="https://brightspace.tudelft.nl/d2l/le/content/682908/viewContent/3912024/View" target="_blank">https://brightspace.tudelft.nl/d2l/le/content/682908/viewContent/3912024/View</a>
 <a name='res1'></a> Formula sheet</li>
 <li><a href="https://brightspace.tudelft.nl/d2l/le/content/682908/viewContent/3912047/View" target="_blank">https://brightspace.tudelft.nl/d2l/le/content/682908/viewContent/3912047/View</a>
 Lesson 1, Laplace, solving DEs.</li>
 </ol>
-    <h3>\(\mathcal{L}\)aplace Transformation</h3>
-    <h4 id="definition">Definition</h4>
+    <h3 id='laptr'><a href='#laptr'>\(\mathcal{L}\)aplace Transformation</a></h3>
+    <h4 id="lapdef"><a href="#lapdef">Definition</a></h4>
     <p>The Laplace transformation of \(f(t)\) becomes \(F(s)\) in this way: 
       \[\mathcal{L}\{f(t)\}(s) = F(s) = \int_0^{\infty} e^{-st}f(t) \, \text{d}t \]
     <p>We must know how to find the Laplace transformed of a function using
 the definition, but we do have a list of transformations for
 differential equations<sup style="color: black;"><b><a
 href="#res1">1</a></b></sup>.</p>
-<h4 id="characteristics">Characteristics</h4>
+    <h4 id="characteristics"><a href='#characteristics'>Characteristics</a></h4>
 <ul>
       <li>\(\mathcal{L}\{f_1(t)\}(s) = \mathcal{L}\{f_2(t)\}(s) \implies f_1 = f_2\)<a href='#note'>*</a></li>
       <li>\(\mathcal{L}\{c_1f_1(t) + c_2f_2(t)\}(s) = c_1\mathcal{L}\{f_1(t)\}(s) + c_2\mathcal{L}\{f_2(t)\}(s)\)</li>
@@ -41,11 +68,11 @@ href="#res1">1</a></b></sup>.</p>
 
 <a name='note'><u>*</u></a> This is assuming the function is continuous.
 
-<h4 id="applications">Applications</h4>
+    <h4 id="applications"><a href='#applications'>Applications</a></h4>
 <p>We can use Laplace transformations to solve differential
 equations<sup style="color: black;"><b></b></sup>.</p>
-<h3 id="step-function">Step function</h3>
-<h4 id="definition-1">Definition</h4>
+    <h3 id="step-function"><a href='#step-function'>Step function</a></h3>
+    <h4 id="definition-1"><a href='#definition-1'>Definition</a></h4>
 <p>of the Heaviside function \(u_c\)</p>
 <p><span class="math display">$$
 u_c(t)=\begin{cases}
@@ -54,13 +81,13 @@ u_c(t)=\begin{cases}
 \end{cases}
 $$</span></p>
 
-<img src="/file.png" alt="alt">
+<img src="/file.png" alt="alt" width='300'>
 
-<h4 id="theorem">Theorem</h4>
+<h4 id="theorem"><a href='#theorem'>Theorem</a></h4>
     <p>\(\mathcal{L}\{u_c(t)f(t)\}(s) = e^{−cs}\mathcal{L}\{f(t+c)\}(s)\)</p>
 <p>On the formula sheet we can find a slightly different version of the
 same theorem.</p>
-<h4 id="observation">Observation</h4>
+<h4 id="observation"><a href='#observation'>Observation</a></h4>
 <p><span class="math display">$$
 \begin{align*}
     f(t)=\begin{cases}
@@ -74,7 +101,7 @@ $$</span></p>
 <p>and we can write \(f\) as
 following:</p>
 <p>\(f(t)=f_1(t)(u_a(t)-u_b(t))+f_2(t)(u_b(t)-u_c(t))+f_3(t)(u_c(t)-u_d(t))+\cdots\)</p>
-<h4 id="periodic-functions">Periodic functions</h4>
+<h4 id="periodic-functions"><a href='#periodic-functions'>Periodic functions</a></h4>
 <p>Assume \(p(t)\) is a
 periodic function with period \(T\).</p>
 <p>Assume <span class="math display">$$
@@ -88,7 +115,7 @@ $$</span></p>
 <p><span class="math display">$$
 \begin{align*}
     p(t)&amp;=\sum_{k=0}^{\infty}f(t-kT)u_{kT}(t),\\
-    \mathcal{L}\{p(t)\}(s)&amp;=F(s)\sum_{k=0}^{\infty}e^{-kTs}\stackrel{\text{s&gt;0}}{=}\frac{F(s)}{1-e^{-sT}},\\
+      \mathcal{L}\{p(t)\}(s)&amp;=F(s)\sum_{k=0}^{\infty}e^{-kTs}\stackrel{s>0}{=}\frac{F(s)}{1-e^{-sT}},\\
     \text{where,}\\
     F(s)&amp;=\mathcal{L}\{f(t)\}(s)
 \end{align*}
@@ -106,7 +133,8 @@ $$</span></p>
 p(t)&=f(t)+f(t-T)+f(t-2T)+\cdots\\
     &=\sum_{k=0}^{\infty} f(t-kT)\cdot u_{kT}(t)
         P(s)=\sum_{k=0}^{\infty} e^{-kTs} \mathcal{L}\{f(t)\}(s)\\
-        &=\mathcal{L}\{f(t)\}(s)\cdot \color{blue}{\underbrace{\color{black}{\sum_{k=0}^{\infty} (e^{-Ts})^k}}_{\text{Geometric Series}}}
+        &=\mathcal{L}\{f(t)\}(s)\cdot \color{blue}{\underbrace{\color{black}{\sum_{k=0}^{\infty} (e^{-Ts})^k}}_{\text{Geometric Series}}}\color{black}{}\stackrel{s>0}{=}\mathcal{L}\{f(t)\}(s)\cdot\frac{1}{1-e^{-sT}}\\
+        &=\frac{F(s)}{1-e^{-sT}}
 \end{align*}
 $$</p>
 </div>
