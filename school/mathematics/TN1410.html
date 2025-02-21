@@ -53,6 +53,9 @@ u_c(t)=\begin{cases}
 1, &amp; c \leq t &lt; \infty
 \end{cases}
 $$</span></p>
+
+<img src="/file.png" alt="alt">
+
 <h4 id="theorem">Theorem</h4>
     <p>\(\mathcal{L}\{u_c(t)f(t)\}(s) = e^{−cs}\mathcal{L}\{f(t+c)\}(s)\)</p>
 <p>On the formula sheet we can find a slightly different version of the
@@ -103,7 +106,7 @@ $$</span></p>
 p(t)&=f(t)+f(t-T)+f(t-2T)+\cdots\\
     &=\sum_{k=0}^{\infty} f(t-kT)\cdot u_{kT}(t)
         P(s)=\sum_{k=0}^{\infty} e^{-kTs} \mathcal{L}\{f(t)\}(s)\\
-        &=\mathcal{L}\{f(t)\}(s)\cdot \underbrace{\sum_{k=0}^{\infty} (e^{-Ts})^k}_{\text{}}
+        &=\mathcal{L}\{f(t)\}(s)\cdot \color{blue}{\underbrace{\color{black}{\sum_{k=0}^{\infty} (e^{-Ts})^k}}_{\text{Geometric Series}}}
 \end{align*}
 $$</p>
 </div>
