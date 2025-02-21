@@ -51,15 +51,15 @@
 <li><a href="https://brightspace.tudelft.nl/d2l/le/content/682908/viewContent/3912047/View" target="_blank">https://brightspace.tudelft.nl/d2l/le/content/682908/viewContent/3912047/View</a>
 Lesson 1, Laplace, solving DEs.</li>
 </ol>
-    <h3 id='laptr'><a href='#laptr'>\(\mathcal{L}\)aplace Transformation</a></h3>
-    <h4 id="lapdef"><a href="#lapdef">Definition</a></h4>
+    <h2 id='laptr'><a href='#laptr'>\(\mathcal{L}\)aplace Transformation</a></h2>
+    <h3 id="lapdef"><a href="#lapdef">Definition</a></h3>
     <p>The Laplace transformation of \(f(t)\) becomes \(F(s)\) in this way: 
       \[\mathcal{L}\{f(t)\}(s) = F(s) = \int_0^{\infty} e^{-st}f(t) \, \text{d}t \]
     <p>We must know how to find the Laplace transformed of a function using
 the definition, but we do have a list of transformations for
 differential equations<sup style="color: black;"><b><a
 href="#res1">1</a></b></sup>.</p>
-    <h4 id="characteristics"><a href='#characteristics'>Characteristics</a></h4>
+    <h3 id="characteristics"><a href='#characteristics'>Characteristics</a></h3>
 <ul>
       <li>\(\mathcal{L}\{f_1(t)\}(s) = \mathcal{L}\{f_2(t)\}(s) \implies f_1 = f_2\)<a href='#note'>*</a></li>
       <li>\(\mathcal{L}\{c_1f_1(t) + c_2f_2(t)\}(s) = c_1\mathcal{L}\{f_1(t)\}(s) + c_2\mathcal{L}\{f_2(t)\}(s)\)</li>
@@ -68,11 +68,11 @@ href="#res1">1</a></b></sup>.</p>
 
 <a name='note'><u>*</u></a> This is assuming the function is continuous.
 
-    <h4 id="applications"><a href='#applications'>Applications</a></h4>
+    <h3 id="applications"><a href='#applications'>Applications</a></h3>
 <p>We can use Laplace transformations to solve differential
 equations<sup style="color: black;"><b></b></sup>.</p>
-    <h3 id="step-function"><a href='#step-function'>Step function</a></h3>
-    <h4 id="definition-1"><a href='#definition-1'>Definition</a></h4>
+    <h2 id="step-function"><a href='#step-function'>Step function</a></h2>
+    <h3 id="definition-1"><a href='#definition-1'>Definition</a></h3>
 <p>of the Heaviside function \(u_c\)</p>
 <p><span class="math display">$$
 u_c(t)=\begin{cases}
@@ -83,11 +83,11 @@ $$</span></p>
 
 <img src="/file.png" alt="alt" width='300'>
 
-<h4 id="theorem"><a href='#theorem'>Theorem</a></h4>
+<h3 id="theorem"><a href='#theorem'>Theorem</a></h3>
     <p>\(\mathcal{L}\{u_c(t)f(t)\}(s) = e^{−cs}\mathcal{L}\{f(t+c)\}(s)\)</p>
 <p>On the formula sheet we can find a slightly different version of the
 same theorem.</p>
-<h4 id="observation"><a href='#observation'>Observation</a></h4>
+<h3 id="observation"><a href='#observation'>Observation</a></h3>
 <p><span class="math display">$$
 \begin{align*}
     f(t)=\begin{cases}
@@ -101,7 +101,7 @@ $$</span></p>
 <p>and we can write \(f\) as
 following:</p>
 <p>\(f(t)=f_1(t)(u_a(t)-u_b(t))+f_2(t)(u_b(t)-u_c(t))+f_3(t)(u_c(t)-u_d(t))+\cdots\)</p>
-<h4 id="periodic-functions"><a href='#periodic-functions'>Periodic functions</a></h4>
+<h3 id="periodic-functions"><a href='#periodic-functions'>Periodic functions</a></h3>
 <p>Assume \(p(t)\) is a
 periodic function with period \(T\).</p>
 <p>Assume <span class="math display">$$
@@ -121,7 +121,28 @@ $$</span></p>
 \end{align*}
 $$</span></p>
 
-<b>Example:</b>
+    <h3 id='examples-stapfunc'><a href='#examples-stapfunc'>Examples</a></h3>
+
+<b>Example 1:</b>
+<br>
+<br>
+
+<div style="display: flex; align-items: right;">
+<img src="/circuit.png" alt="alt" width=230px>
+
+$$
+\begin{align*}
+  \begin{cases}
+    R=1 \;\Omega\\
+      C=0.5\; \text{F}
+  \end{cases}
+\end{align*}
+$$
+</div>
+
+<br>
+<br><br>
+<b>Example 2:</b>
     <br>
     <br>
 
@@ -139,6 +160,9 @@ p(t)&=f(t)+f(t-T)+f(t-2T)+\cdots\\
 $$</p>
 </div>
 
+<br>
+
+<h3></h3>
 
 </body>
 </html>
