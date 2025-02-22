@@ -127,18 +127,30 @@ $$</span></p>
 <br>
 <br>
 
-<div style="display: flex; align-items: right;">
+<div style="display: flex; align-items: center; gap: 50px;">
+<div>
 <img src="/circuit.png" alt="alt" width=230px>
-
 $$
 \begin{align*}
   \begin{cases}
     R=1 \;\Omega\\
-      C=0.5\; \text{F}
+    C=0.5\; \text{F}\\
+    q(0)=3\\
   \end{cases}
 \end{align*}
 $$
 </div>
+
+<div>
+$$
+\begin{align*}
+i(t)R+\frac{1}{C}q(t)&=V_{\text{ext}}(t)=\begin{cases}0, & 0\leq t<\pi \\ 5\cos(t), & t\geq\pi \end{cases}\\
+q^{\prime}(t)R+\frac{1}{C}q(t)&=V_{\text{ext}}(t)
+\end{align*}
+$$
+</div>
+</div>
+
 
 <br>
 <br><br>
@@ -146,7 +158,7 @@ $$
     <br>
     <br>
 
-<div style="display: flex; align-items: center;">
+<div style="display: flex; align-items: center; gap: 50px;">
 <img src="/graph.png" alt="alt" width='300' height='300'>
 
 <p>$$
