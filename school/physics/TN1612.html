@@ -6,13 +6,13 @@
     <title>TN1612TU -- Mechanics and Relativity</title>
     <style>
       body {
-        padding-left: 20px; /* Adjust this value to add space from the left */
+        padding-left: 20px;
+        padding-right: 20px;
       }
     /* Style for headings with anchor links */
       h1, h2, h3, h4, h5, h6 {
         position: relative; /* Required for positioning the icon */
       }
-
       /* Add a link icon on hover */
       h1:hover a:before,
       h2:hover a:before,
@@ -25,7 +25,6 @@
         margin-left: 1px;
         text-decoration: none; /* Remove underline */
       }
-
       /* Remove default link styling */
       h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
         color: inherit; /* Inherit the heading color */
@@ -74,14 +73,12 @@ Furthermore we have a concept called impuls (NL. stoot). This is best explained 
 <br>
 <br>
 
-<div style="display: flex; align-items: center; gap: 50px;">
 <img src="/images/mclaren.jpg" alt="alt" width=350px>
 $$
 \begin{align*}
 \underbrace{\int_{t_0}^{t_0+\Delta t} F \, \text{d}t}_{\text{impuls}} = \int_{t_0}^{t_0+\Delta t} dp = p_{\text{end}}-p_{\text{begin}} 
 \end{align*}
 $$
-</div>
 
 <br>
 <br>
@@ -109,7 +106,7 @@ $$
 </div>
 <br>
 
-<h2 id='ff'><a href="#ff" target="_blank">Fundemental Forces</a></h2>
+<h3 id='ff'><a href="#ff" target="_blank">Fundemental Forces</a></h3>
 
 <ol>
     <li>Gravitational Force</li>
@@ -118,6 +115,58 @@ $$
     <li>Strong Interaction</li>
 </ol>
 
+<b>Gravitational Force</b>
+$$
+\vec{F}_G=G\frac{Mm}{r^2}\hat{r}
+$$
+
+<h3 id='work'><a href="#work" target="_blank">Work and Force</a></h3>
+
+<b>Definition</b>
+$$
+\begin{align*}
+dW&:= \vec{F}\cdot d\vec{r}\\
+W_{12}&=\int_1^2 \vec{F}\cdot d\vec{r}
+\end{align*}
+$$
+
+<b>Acquiring expression relating Work and Kinetic Energy</b>
+
+$$
+\begin{align*}
+W_{12}&=\int_1^2 \vec{F}\cdot d\vec{r}=\int \vec{F}\cdot\frac{d\vec{r}}{dt}dt=\int\vec{F}\cdot\vec{v}dt=\int m\frac{d\vec{v}}{dt}\cdot\vec{v}dt\\
+&=m \int \vec{v} \cdot d\vec{v} = m \int \frac{1}{2} d\vec{v}^2 = \frac{1}{2} m \vec{v}^2 \bigg|_1^2 = \frac{1}{2} m \vec{v}_2^2 - \frac{1}{2} m \vec{v}_1^2\\
+&=\Delta E_{\text{kin}}
+\end{align*}
+$$
+
+<div style="border: 3px solid red; padding: 10px; display: inline-block;">
+  <h4 style='font-size: 1.5em;'><u>IMPORTANT</u></h4>
+  <b><u>IF</u></b> a force is conservative, we can define a potential:
+
+$$
+V(\vec{r}):=-\int_{\vec{r}_0}^{\vec{r}}\vec{F}(\vec{r}^{\prime})\cdot d\vec{r}^{\prime}
+$$
+</div>
+
+<br>
+<br>
+
+<b style="font-size: 1.5em;">Conservation of Energy</b>
+
+<br><br>
+
+<b><u>IN A CONSERVATIVE FORCE FIELD</u></b> we have to choose a reference point, in this case 2:
+<br>
+<img src="/images/path.png" alt="alt" width=200px>
+
+$$
+\begin{align*}
+
+W_{13}&=W_{12}+W_{23}\Longrightarrow\\
+W_{13}&=-\int_2^1\vec{F}\cdot d\vec{r}+\int_2^3\vec{F}\cdot d\vec{r}=V(\vec{r}_1)-V(\vec{r}_3)
+\end{align*}
+$$
 
 
 </body>
