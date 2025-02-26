@@ -52,41 +52,61 @@
 Lesson 1, Laplace, solving DEs.</li>
 </ol>
     <h2 id='laptr'><a href='#laptr'>\(\mathcal{L}\)aplace Transformation</a></h2>
+    <div style="border: 3px solid red; padding: 10px; display: inline-block;">
     <h3 id="lapdef"><a href="#lapdef">Definition</a></h3>
     <p>The Laplace transformation of \(f(t)\) becomes \(F(s)\) in this way: 
-      \[\mathcal{L}\{f(t)\}(s) = F(s) = \int_0^{\infty} e^{-st}f(t) \, \text{d}t \]
+      \[\mathcal{L}\{f(t)\}(s) = F(s) = \int_0^{\infty} e^{-st}f(t) \, \text{d}t \]</div>
     <p>We must know how to find the Laplace transformed of a function using
 the definition, but we do have a list of transformations for
 differential equations<sup style="color: black;"><b><a
 href="#res1">1</a></b></sup>.</p>
     <h3 id="characteristics"><a href='#characteristics'>Characteristics</a></h3>
+<div style="border: 3px solid #539bf5; padding: 1px; display: inline-block;">
 <ul>
       <li>\(\mathcal{L}\{f_1(t)\}(s) = \mathcal{L}\{f_2(t)\}(s) \implies f_1 = f_2\)<a href='#note'>*</a></li>
       <li>\(\mathcal{L}\{c_1f_1(t) + c_2f_2(t)\}(s) = c_1\mathcal{L}\{f_1(t)\}(s) + c_2\mathcal{L}\{f_2(t)\}(s)\)</li>
       <li>\(\mathcal{L}\{f^{(n)}\}(s) = s^n\mathcal{L}\{f(t)\}(s) − s^{n−1}f(0) − \cdots − sf^{(n−2)}(0) − f^{(n−1)}(0)\)</li>
 </ul>
 
+</div>
+<br>
+
 <a name='note'><u>*</u></a> This is assuming the function is continuous.
 
     <h3 id="applications"><a href='#applications'>Applications</a></h3>
 <p>We can use Laplace transformations to solve differential
 equations<sup style="color: black;"><b></b></sup>.</p>
-    <h2 id="step-function"><a href='#step-function'>Step function</a></h2>
-    <h3 id="definition-1"><a href='#definition-1'>Definition</a></h3>
-<p>of the Heaviside function \(u_c\)</p>
-<p><span class="math display">$$
+<h2 id="step-function"><a href='#step-function'>Step function</a></h2>
+<div style="border: 3px solid red; padding: 10px; display: inline-block; display: flex; align-items: center; gap: 10px;max-width: fit-content;">
+<div><h3 id="definition-1"><a href='#definition-1'>Definition</a></h3> 
+of the Heaviside function \(u_c\)
+$$
 u_c(t)=\begin{cases}
 0, &amp; 0 \leq t &lt; c \\
 1, &amp; c \leq t &lt; \infty
 \end{cases}
-$$</span></p>
-
-<img src="/file.png" alt="alt" width='300'>
-
+$$</div>
+<div>
+<br> <br> <img src="/file.png" alt="alt" width='300'>
+</div>
+</div>
+<br>
+<div style="border: 3px solid #539bf5; padding: 10px; display: inline-block;">
 <h3 id="theorem"><a href='#theorem'>Theorem</a></h3>
-    <p>\(\mathcal{L}\{u_c(t)f(t)\}(s) = e^{−cs}\mathcal{L}\{f(t+c)\}(s)\)</p>
+    <p>\(\mathcal{L}\{u_c(t)f(t)\}(s) = e^{−cs}\mathcal{L}\{f(t+c)\}(s)\)</p></div>
 <p>On the formula sheet we can find a slightly different version of the
 same theorem.</p>
+
+<h3 id="proof"><a href='#proof'>Proof</a></h3>
+$$
+\begin{align*}
+\mathcal{L}\{f(t)u_c(t)\}(s)&=\int_0^{\infty}f(t)u_c(t)e^{-st}\, \text{d}t\\
+&=\int_0^cf(t)u_c(t)e^{-st}\, \text{d}t+\int_c^{\infty}f(t)u_c(t)e^{-st}\, \text{d}t\;\stackrel{\begin{cases}u=t-c\\du=dt\\t=u+c\end{cases}}{\xlongequal{}}\;\int_0^{\infty}f(u+c)u_c(t)e^{-s(u+c)}\, \text{d}u \\
+&= e^{-sc}\int_0^{\infty}f(u+c)e^{-su}\, \text{d}u\stackrel{t=u}{\xlongequal{}}e^{-sc}\int_0^{\infty}f(t+c)e^{-st}\, \text{d}t\\
+&=e^{-sc}\mathcal{L}\{f(t+c)\}(s)
+\end{align*}
+$$
+
 <h3 id="observation"><a href='#observation'>Observation</a></h3>
 <p><span class="math display">$$
 \begin{align*}
@@ -100,7 +120,8 @@ same theorem.</p>
 $$</span></p>
 <p>and we can write \(f\) as
 following:</p>
-<p>\(f(t)=f_1(t)(u_a(t)-u_b(t))+f_2(t)(u_b(t)-u_c(t))+f_3(t)(u_c(t)-u_d(t))+\cdots\)</p>
+<div style="border: 3px solid #539bf5; padding: 10px; display: inline-block; display: flex; align-items: center; gap: 10px;max-width: fit-content;">
+<p>\(f(t)=f_1(t)(u_a(t)-u_b(t))+f_2(t)(u_b(t)-u_c(t))+f_3(t)(u_c(t)-u_d(t))+\cdots\)</p></div>
 <h3 id="periodic-functions"><a href='#periodic-functions'>Periodic functions</a></h3>
 <p>Assume \(p(t)\) is a
 periodic function with period \(T\).</p>
@@ -145,7 +166,11 @@ $$
 $$
 \begin{align*}
 i(t)R+\frac{1}{C}q(t)&=V_{\text{ext}}(t)=\begin{cases}0, & 0\leq t<\pi \\ 5\cos(t), & t\geq\pi \end{cases}\\
-q^{\prime}(t)R+\frac{1}{C}q(t)&=V_{\text{ext}}(t)
+q^{\prime}(t)R+\frac{1}{C}q(t)&=V_{\text{ext}}(t)\\
+q^{\prime}(t)+2q(t)&=5\cos(t)\cdot u_{\pi}(t)\\
+sQ(s)-3+2Q(s)&=e^{-\pi s}\cdot\frac{-5s}{s^2+1}\\
+Q(s)&=\frac{3}{s+2}-e^{-\pi s}\left(-\frac{2}{s+2}+\frac{2s}{s^2+1}+\frac{1}{s^2+1}\right)\\
+q(t)&=3e^{-2t}-u_{\pi}(t)\left(-2e^{-2(t-\pi)}+2\cos{(t-\pi)}+\sin{(t-\pi)}\right)
 \end{align*}
 $$
 </div>
@@ -174,7 +199,23 @@ $$</p>
 
 <br>
 
-<h3></h3>
+<h2 id='dirac'><a href='#dirac'>Dirac \(\delta\)elta function</a></h2>
+
+<h3 id="defdirac"><a href='#defdirac'>Definition</a></h3>
+The Dirac Delta Function in point \(t=t_0\) by:
+<ul>
+  <li>$$\begin{flalign}\delta(t-t_0)=0,\; t\neq t_0&&\end{flalign}$$</li>
+  <li>$$\begin{flalign}\int_{-\infty}^{\infty}\delta(t-t_0)\, \text{d}t=1 &&\end{flalign}$$</li>
+</ul>
+
+<br>
+
+<div style="border: 2px solid; color: #539bf5; padding: 1px; display: inline-block;">
+<blockquote><span style="color: #539bf5; font-weight: bold;">&#128712; Note: </span>$$\begin{flalign}\color{black}{}\int_{-\infty}^{\infty}\delta(t-t_0)f(t)\, \text{d}t=f(t_0) &&\end{flalign}$$</blockquote>
+</div>
+
+
+
 
 </body>
 </html>
