@@ -201,18 +201,40 @@ $$</p>
 
 <h2 id='dirac'><a href='#dirac'>Dirac \(\delta\)elta function</a></h2>
 
+<div style="border: 3px solid red; padding: 10px; display: inline-block; max-width: fit-content;">
 <h3 id="defdirac"><a href='#defdirac'>Definition</a></h3>
 The Dirac Delta Function in point \(t=t_0\) by:
 <ul>
   <li>$$\begin{flalign}\delta(t-t_0)=0,\; t\neq t_0&&\end{flalign}$$</li>
   <li>$$\begin{flalign}\int_{-\infty}^{\infty}\delta(t-t_0)\, \text{d}t=1 &&\end{flalign}$$</li>
 </ul>
+</div>
 
+<br>
 <br>
 
 <div style="border: 2px solid; color: #539bf5; padding: 1px; display: inline-block;">
 <blockquote><span style="color: #539bf5; font-weight: bold;">&#128712; Note: </span>$$\begin{flalign}\color{black}{}\int_{-\infty}^{\infty}\delta(t-t_0)f(t)\, \text{d}t=f(t_0) &&\end{flalign}$$</blockquote>
-</div>
+</div><br>
+<br>
+<b>Proof for note</b>
+$$
+\begin{flalign*}
+  \delta(t-t_0)&=\lim_{\varepsilon\,\downarrow\,0}\varphi_{\epsilon}(t)&&\\
+  \int_{-\infty}^{\infty}\delta(t-t_0)g(t)\, \text{d}t&=\lim_{\epsilon\,\downarrow\,0}\int_{-\infty}^{\infty}\phi_{\epsilon}(t)g(t)\, \text{d}t\\
+  \lim_{\epsilon\,\downarrow\,0}\frac{1}{\epsilon}\int_{t_0}^{t_0+\epsilon}g(t)\, \text{d}t &=\lim_{\epsilon\,\downarrow\,0}\frac{1}{\epsilon}\left(G(t_0+\epsilon)-G(t_0)\right)\\
+  G^{\prime}(t_0)&=g(t_0)
+\end{flalign*}
+$$
+
+<h3 id='exampledirac'><a href='#exampledirac'>Example</a></h3>
+
+<img src="cart.svg" alt="cart" width='100'>
+
+
+
+
+
 
 
 
