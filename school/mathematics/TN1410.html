@@ -249,7 +249,126 @@ Now for the velocity:
 
 <br><br>
 
-<img src="/vel_hammer.svg" alt="acceleration" width='350'>
+<img src="/vel_hammer.svg" alt="velocity" width='350'>
+
+
+<h2 id='convint'><a href='#convint'>Convolution integrals</a></h2>
+
+<div style="border: 3px solid #539bf5; padding: 10px; display: inline-block;  gap: 10px;max-width: fit-content;">
+  If \(F(s)=\mathcal{L}\{f(t)\}(s)\) and \(G(s)=\mathcal{L}\{g(t)\}(s)\), \(s>a\geq 0\), then:
+  $$
+  H(s)=F(s)G(s)=\mathcal{L}\{h(t)\}(s),\quad s>a
+  $$
+  with
+  $$
+  h(t)=\int_0^t f(t-\tau)g(\tau)\, \text{d}\tau=\int_0^t f(\tau)g(t-\tau)\, \text{d}\tau
+  $$
+</div>
+
+<br><br>
+
+<div style="border: 3px solid red; padding: 10px; display: inline-block; gap: 10px;max-width: fit-content;">
+Definition:<br>
+<br>
+<ul>
+<li>\(k\) is called convolution of \(f\) and \(g\).</li>
+<li>$$\begin{flalign}\int_0^t f(t-\tau)g(\tau)\, \text{d}\tau&&\end{flalign}$$ and $$\begin{flalign}\int_0^t f(\tau)g(t-\tau)\, \text{d}\tau&&\end{flalign}$$ are called the convolution integrals.</li>
+</ul>
+</div>
+
+
+Voorbeeld, eigenschappen, notatie, etc...
+
+
+
+
+
+<h2 id='compfunc'><a href='#compfunc'>Complex functions</a></h2>
+
+<div style="border: 3px solid red; padding: 10px; display: inline-block; display: flex; align-items: center; gap: 10px;max-width: fit-content;">
+<b>Definition</b>:<br>
+$$
+\int_{\alpha}^{\beta} f(t)\, \text{d}t = \int_{\alpha}^{\beta} u(t)\, \text{d}t + i\int_{\alpha}^{\beta} v(t)\, \text{d}t
+$$
+</div>
+
+
+
+<h2 id='pcfunc'><a href='#pcfunc'>Piecewise continuous functions</a></h2>
+
+
+<div style="border: 3px solid red; padding: 10px; display: inline-block; gap: 10px;max-width: fit-content;">
+<b>Definition</b>: <br>
+
+\(f\) is called piecewise continuous on \([\alpha,\beta]\) if:<br>
+<ul>
+<li>\(f\) is, on finitely many points, continuous on \([\alpha,\beta]\)</li>
+
+<li>In every \(x\) in \((\alpha,\beta)\) exists \(f(x-)\) and \(f(x+)\)</li>
+
+<li>In \(\alpha\) exists \(f(\alpha-)\) and in \(\beta\) \(f(\beta-)\)</li>
+
+</ul>
+
+</div>
+
+<br>
+
+Eigenschappen...
+
+<br>
+
+<h3 id='norm'><a href='#norm'>Norm</a></h3>
+
+Suppose \(f\in \text{PC}[\alpha,\beta]\), the norm is:
+$$
+||f||=\sqrt{\int_{\alpha}^{\beta} \overline{f(x)}f(x)\, \text{d}x}
+$$
+
+<div style="border: 2px solid #539bf5; padding: 1px; display: inline-block;">
+<blockquote><span style="font-weight: bold;">Note: </span>For \(c\in Complex\), \(||cf||=|c|||f||\)</blockquote>
+</div><br>
+<br>
+
+<div style="border: 3px solid red; padding: 10px; display: inline-block; gap: 10px;max-width: fit-content;">
+  <b>Definition</b>: <br>
+
+The distance between two functions \(f\) and \(g\) is:
+$$
+||f-g||
+$$
+</div>
+<br><br>
+<div style="border: 2px solid #539bf5; padding: 1px; display: inline-block;">
+<blockquote><span style="font-weight: bold;">Note: </span>\(f=g\) in \(\text{PC}[\alpha,\beta]\) if: $$||f-g||=0$$</blockquote>
+</div><br>
+<br>
+
+
+<h3 id='dotprod'><a href='#dotprod'>Dot product of functions</a></h3>
+
+<div style="border: 3px solid red; padding: 10px; display: inline-block; gap: 10px;max-width: fit-content;">
+  <b>Definition</b>: <br>
+
+  In \(\text{PC}[\alpha,\beta]\), dot product of \(f\) and \(g\) is:<br><br>
+  $$
+    \langle f,g\rangle = \int_{\alpha}^{\beta}\overline{f(x)}g(x) \, \text{d}x
+  $$
+</div>
+<br><br>
+<div style="border: 3px solid #539bf5; padding: 10px; display: inline-block; gap: 10px;max-width: fit-content;"> Note: <br>
+$$
+  \langle f,f\rangle=\int_{\alpha}^{\beta}\overline{f(x)}f(x) \, \text{d}x=||f||^2
+  $$
+</div>
+
+voorbeeld, eigenschappen, als dot prod = 0 dan orthogonaal.
+
+
+
+
+
+
 
 
 
