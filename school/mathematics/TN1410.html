@@ -8,28 +8,68 @@
       body {
         padding-left: 20px; /* Adjust this value to add space from the left */
       }
-    /* Style for headings with anchor links */
-      h1, h2, h3, h4, h5, h6 {
-        position: relative; /* Required for positioning the icon */
-      }
-
-      /* Add a link icon on hover */
-      h1:hover a:before,
-      h2:hover a:before,
-      h3:hover a:before,
-      h4:hover a:before,
-      h5:hover a:before,
-      h6:hover a:before {
-        content: " "; /* Link icon */
-        font-size: 0.8em;
-        margin-left: 1px;
-        text-decoration: none; /* Remove underline */
-      }
-
-      /* Remove default link styling */
+      /* Ensure the heading contains an anchor tag */
       h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
-        color: inherit; /* Inherit the heading color */
+        position: relative;
         text-decoration: none; /* Remove underline */
+        color: inherit; /* Keep heading color */
+        display: inline-block; /* Ensures only text is hovered */
+      }
+
+      /* Show the icon only when the anchor inside the heading is hovered */
+      h1 a:hover::before,
+      h2 a:hover::before,
+      h3 a:hover::before,
+      h4 a:hover::before,
+      h5 a:hover::before,
+      h6 a:hover::before {
+        content: " "; /* Use a Unicode link icon */
+        font-size: 0.8em;
+        margin-left: -.5em; /* Moves the icon slightly left */
+        margin-right: 0em;
+        text-decoration: none;
+        opacity: 1;
+      }
+
+      /* Hide the icon by default */
+      h1 a::before,
+      h2 a::before,
+      h3 a::before,
+      h4 a::before,
+      h5 a::before,
+      h6 a::before {
+        content: " ";
+        font-size: 0.8em;
+        margin-left: -1em;
+        margin-right: 0em;
+        opacity: 0;
+        transition: opacity 0.1s ease-in-out;
+      }
+
+      /* Only show the icon when hovering over the anchor itself */
+      h1 a:hover::before,
+      h2 a:hover::before,
+      h3 a:hover::before,
+      h4 a:hover::before,
+      h5 a:hover::before,
+      h6 a:hover::before {
+        opacity: 1;
+      }
+      .quick-links {
+          font-family: Arial, sans-serif;
+          margin: 20px;
+      }
+      .quick-links a {
+          display: inline-block;
+          padding: 10px 20px;
+          background: #4681f4;
+          color: white;
+          text-decoration: none;
+          border-radius: 5px;
+          margin: 5px;
+      }
+      .quick-links a:hover {
+          background: #498bc1;
       }
     </style>
     <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
@@ -42,7 +82,9 @@
     <h2 id="tn1410"><a href='#tn1410'>TN1410</a></h2>
 <h3 id="date"><a href='#date'>TU Delft; 10/02/2025-//2025</a></h3>
 
+<div class="quick-links">
 <h2><a href='/index.html'>Main Page</a></h2>
+</div>
 
     <h4 id="resources"><a href='#resources'>Resources</a></h4>
 <ol type="1">
