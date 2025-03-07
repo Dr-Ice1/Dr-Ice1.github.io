@@ -261,7 +261,46 @@ So we can use Stokes' theorem to see if \(\vec{F}\cdot d\vec{r}=0\) because if t
 <img src="/polcor.svg" alt="polcor" width='350px'>
 
 
+$$
+\begin{cases}
+  x=r\cos{\phi}\\
+  y=r\sin{\phi}
+\end{cases}
+$$
+$$
+\begin{cases}
+  \hat{x}=\cos{\phi}\;\hat{r}-\sin{\phi}\;\hat{\phi}\\
+  \hat{y}=\sin{\phi}\;\hat{r}+\cos{\phi}\;\hat{\phi}
+\end{cases}
+$$
+$$
+\begin{cases}
+  \hat{r}=\cos{\phi}\;\hat{x}+\sin{\phi}\;\hat{y}\\
+  \hat{\phi}=-\sin{\phi}\;\hat{x}+\cos{\phi}\;\hat{y}
+\end{cases}
+$$
+$$
+\begin{cases}
+  \frac{d\hat{r}}{dt}=\frac{d\hat{r}}{d\phi}\cdot\frac{d\phi}{dt}=\hat{\phi}\dot{\phi}\\
+  \frac{d\hat{\phi}}{dt}=\frac{d\hat{\phi}}{d\phi}\cdot\frac{d\phi}{dt}=-\hat{r}\dot{\phi}
+\end{cases}
+$$
+$$
+\begin{cases}
+\vec{v}=\frac{d\vec{r}}{dt}=\frac{d(r\hat{r})}{dt}=\frac{dr}{dt}\hat{r}+r\frac{d\hat{r}}{dt}=\dot{r}\hat{r}+r\dot{\phi}\hat{\phi}\\
+\vec{a}=\frac{d\vec{v}}{dt}=\frac{d(\dot{r}\hat{r})}{dt}+\frac{d(r\dot{\phi}\hat{\phi})}{dt}=\left(\ddot{r}-r\dot{\phi}^2\right)\hat{r}+\left(r\ddot{\phi}+2\dot{r}\dot{\phi}\right)\hat{\phi}
+\end{cases}
+$$
 
+<h3 id='angmom'><a href="#angmom" target="_blank">Angular Momentum</a></h3>
+Angular momentum, krachtmoment or torque in dutch. Chosen origin is important.
+
+$$
+\vec{l}\equiv\vec{r}\times\vec{p}
+$$
+$$
+\frac{d\vec{l}}{dt}=\underbrace{\frac{d\vec{r}}{dt}\times\vec{p}}_{=0}+\vec{r}\times\frac{d\vec{p}}{dt}=\vec{r}\times\vec{F}=\vec{\Gamma}
+$$
 
 
 
