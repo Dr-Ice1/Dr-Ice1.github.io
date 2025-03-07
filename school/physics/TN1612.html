@@ -95,6 +95,7 @@
 <li><a href="https://qiweb.tudelft.nl/mecharela/" target="_blank">https://qiweb.tudelft.nl/mecharela/</a> Open MechaRela Notes</li>
 <li><a href="https://interactivetextbooks.tudelft.nl/dev/mechanica/" target="_blank">https://interactivetextbooks.tudelft.nl/dev/mechanica/</a> All course material with additional explanations.
 </li>
+<li><a href="https://en.wikipedia.org/wiki/Stokes%27_theorem" target="_blank">Stokes' theorem</a> Wikipedia</li>
 </ol>
 
 <h2 id='newton'><a href="#newton" target="_blank">Newton</a></h2>
@@ -170,14 +171,16 @@ $$
 
 <h3 id='work'><a href="#work" target="_blank">Work and Force</a></h3>
 
-<b>Definition</b>
+<div style="border: 3px solid red; padding: 10px; display: inline-block; gap: 10px;max-width: fit-content;">
+  <b>Definition</b>: <br>
 $$
 \begin{align*}
 dW&:= \vec{F}\cdot d\vec{r}\\
 W_{12}&=\int_1^2 \vec{F}\cdot d\vec{r}
 \end{align*}
 $$
-
+</div>
+<br><br>
 <b>Acquiring expression relating Work and Kinetic Energy</b>
 
 $$
@@ -212,9 +215,55 @@ $$
 \begin{align*}
 
 W_{13}&=W_{12}+W_{23}\Longrightarrow\\
-W_{13}&=-\int_2^1\vec{F}\cdot d\vec{r}+\int_2^3\vec{F}\cdot d\vec{r}=V(\vec{r}_1)-V(\vec{r}_3)
+W_{13}&=-\int_2^1\vec{F}\cdot d\vec{r}+\int_2^3\vec{F}\cdot d\vec{r}=V(\vec{r}_1)-V(\vec{r}_3)\\
+\Delta E_{\text{kin}}&=-\Delta V\\
+E_{\text{kin,1}}+V(\vec{r}_1)&=E_{\text{kin,3}}+V(\vec{r}_3)\\
+E_{\text{kin}}+V&=const.\\
+\Delta(E_{\text{kin}}+V)&=0
 \end{align*}
 $$
+
+<b>A helpful theorem</b><br><br>
+Stokes' theorem will help us a lot with conservative forces since we can <mark><u>quickly analyse</u> <b>if</b> the force is <b>conservative</b></mark>.\( {^{\href{javascript:window.open('https://interactivetextbooks.tudelft.nl/dev/mechanica/content/Ch5_PotentialEnergy.html');}{4},}} { ^{\href{javascript:window.open('https://en.wikipedia.org/wiki/Stokes\%27_theorem');}{5}}} \)
+<br>
+<br>
+<div style="border: 3px solid #539bf5; padding: 10px; display: inline-block; gap: 10px;max-width: fit-content;">
+$$
+\begin{align*}
+  \oint \vec{F}\cdot d\vec{r}=\iint\vec{\nabla}\times\vec{F}\cdot d\vec{\sigma}
+\end{align*}
+$$
+</div>
+<br><br>
+
+We know:
+$$
+\text{conservative force} \Longleftrightarrow \oint \vec{F}\cdot d\vec{r}=0\;\text{for ALL closed paths}
+$$
+
+
+So we can use Stokes' theorem to see if \(\vec{F}\cdot d\vec{r}=0\) because if this is the case, \(\vec{\nabla}\times\vec{F}=0\). This is key. With this we get:
+<br><br>
+
+<div style="border: 3px solid #539bf5; padding: 10px; display: inline-block; gap: 10px;max-width: fit-content;">
+  $$
+  \begin{flalign*}
+  \vec{\nabla}\times\vec{F}=0\; \Longrightarrow\\
+  \oint\vec{F}\cdot d\vec{r}=0 \Longleftrightarrow\\
+  \text{Conservative force}
+  \end{flalign*}
+  $$
+</div>
+<br><br>
+
+<h3 id='polcord'><a href="#polcord" target="_blank">Polar coordinates</a></h3>
+
+<img src="/polcor.svg" alt="polcor" width='350px'>
+
+
+
+
+
 
 
 <br><br><br><br><br><br><br><br><br><br><br>
