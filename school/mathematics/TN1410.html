@@ -361,11 +361,15 @@ Eigenschappen...
 <br>
 
 <h3 id='norm'><a href='#norm'>Norm</a></h3>
-
+<div style="border: 3px solid red; padding: 10px; display: inline-block; gap: 10px;max-width: fit-content;">
+  <b>Definition</b>: <br>
 Suppose \(f\in \text{PC}[\alpha,\beta]\), the norm is:
 $$
 ||f||=\sqrt{\int_{\alpha}^{\beta} \overline{f(x)}f(x)\, \text{d}x}
 $$
+</div>  
+
+<br><br>
 
 <div style="border: 2px solid #539bf5; padding: 1px; display: inline-block;">
 <blockquote><span style="font-weight: bold;">Note: </span>For \(c\in Complex\), \(||cf||=|c|||f||\)</blockquote>
@@ -404,13 +408,44 @@ $$
   $$
 </div>
 
+<br><br>
+
+<div style="border: 3px solid red; padding: 10px; display: inline-block; gap: 10px;max-width: fit-content;">
+  <b>Definition</b>: <br>
+  We call \(g\) orthogonal to \(f\) if:
+<ul>
+<li>\(\langle f,g\rangle=0\)</li>
+<li>Set of functions is called orthogonal set if every function is that set is orthogonal to every other function in the set.</li>
+</ul>
+</div>
+<br><br>
+
+<div style="border: 3px solid #539bf5; padding: 10px; display: inline-block; gap: 10px;max-width: fit-content;">
+  <b>Pythagorean theorem</b>:<br>
+  If \(g\) is orthogonal to \(f\), then \(||f+g||^2=||f||^2+||g||^2\). <br>
+  In general: if \(\{f_1,f_2,\ldots,f_n\}\) is an orthogonal set, then:
+  $$
+    ||f_1+f_2+\ldots+f_n||^2=||f_1||^2+||f_2||^2+\ldots+||f_n||^2
+  $$
+</div>
+
 voorbeeld, eigenschappen, als dot prod = 0 dan orthogonaal.
 
+<br><br>
 
+<h3 id='conv'><a href="#conv" target="_blank">Convergence</a></h3>
 
+<div style="border: 3px solid red; padding: 10px; display: inline-block; gap: 10px;max-width: fit-content;">
+  <b>Definition</b>: <br>
+  Suppose \(s_1,s_2,s_3,\ldots\) is a sequence in \(\text{PC}[\alpha,\beta]\).
+  <ul>
+    <li>The sequence converges (in norm) to the function \(s\) if \(\lim_{n\to\infty}||s_n-s||=0\).</li><br>
+    <li>The sequence converges pointwise to the function \(s\) if \(\forall x\in [\alpha,\beta]\) the numbersequence \(s_1(x), s_2(x), s_3(x), \ldots\) converges to \(s(x)\).</li><br>
+    <li>The sequence converges uniformly to the function \(s\) if \(\forall\epsilon>0\; \exists N\mid\forall n\leq N \wedge\forall x\in [\alpha,\beta]\) then \(|s(x)-s_n(x)|<\epsilon\)</li>
+  </ul>
+</div>
 
-
-
+<br><br>
 
 
 
