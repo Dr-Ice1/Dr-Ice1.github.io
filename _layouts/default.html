@@ -6,6 +6,21 @@
     <title>{{ page.title }} - {{ site.title }}</title>
     {% include head.html %}
 </head>
+<script>
+document.querySelectorAll('.ref-link').forEach(anchor => {
+    anchor.addEventListener('click', function(e) {
+        e.preventDefault();
+        const targetId = this.getAttribute("href").substring(1);
+        const targetElement = document.getElementById(targetId);
+        if (targetElement) {
+            const yOffset = window.innerHeight / 2 - targetElement.clientHeight / 2;
+            const y = targetElement.getBoundingClientRect().top + window.scrollY - yOffset;
+            window.scrollTo({ top: y, behavior: "smooth" });
+        }
+    });
+});
+</script>
+
 <body>
     <div class="container">
         <header>
