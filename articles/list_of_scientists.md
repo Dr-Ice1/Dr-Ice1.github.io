@@ -1,0 +1,43 @@
+# A list of scientists and their theology
+
+## This list looks at scientists and their theological position.
+
+In the field of science we often hear criticism about Christianity, yet almost never praise Christianity when it inspires scientists. One who claims to search for the objective truth should put time in research before stating something as a fact. The age of enlightenment and the scientific revolution both are a product of Christian theology, ethics, epistemology; in general the Christian philosophy. These facts are overlooked.
+
+## Johannes Kepler and Geocentrism
+
+### Resources
+1. <a name='wrldcatkepler'></a>
+Johannes kepler: life and letters. <a href="https://57427.account.worldcat.org/account/requests" target="_blank">https://57427.account.worldcat.org/account/requests</a> 
+2. <a name='res-2'></a>Wikipedia page on Johannes Kepler <a href="https://en.wikipedia.org/wiki/Johannes_Kepler#Christianity" target="_blank">https://en.wikipedia.org/wiki/Johannes_Kepler#Christianity</a>
+3. <a name='res-3'></a>Mysterium Cosmographicum Theological and philosophical foundation <a href="https://en.wikipedia.org/wiki/Mysterium_Cosmographicum#Theological_and_philosophical_foundation" target="_blank">https://en.wikipedia.org/wiki/Mysterium_Cosmographicum#Theological_and_philosophical_foundation</a>
+4. <a name='res-4'></a>Mysterium Cosmographicum PDF <a href="https://risingtidefoundation.net/wp-content/uploads/2019/08/kepler-mysterium.pdf" target="_blank">https://risingtidefoundation.net/wp-content/uploads/2019/08/kepler-mysterium.pdf</a> 
+
+### Introduction
+
+We have heard a lot said about beliefs of the Catholic Church. When talked about those times,
+<a href="https://en.wikipedia.org/wiki/Johannes_Kepler" target="_blank">
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/JKepler.jpg/330px-JKepler.jpg" alt="Kepler" width="200" style="float: right; margin-left: 10px;"></a>
+ atheists scientists like to highlight the supposed fact that the Catholic Church held a geocentric view of the universe and would 'get rid' of anyone who opposed this view.
+
+
+
+
+Hypocritically, these same scientists will not open the Bible to see if geocentrism is found **anywhere** in the Bible. So the notion that scientists used to look at the Bible and at the collected data, and conclude a geocentric view; is simply false. Because 1) the Bible is not a science book with any scientific teachings and 2) if one were to use the Bible as a scientific basis that person is dishonest or just does not understand the faith. 
+
+In conclusion, using the Bible to derive geocentrism is complete ignorance.
+
+## Kepler's Theology
+
+### Christianity
+
+Johannes Kepler was a Christian and wrote about his beliefs in his works. In his letter to the Bavarian chancellor Herwart von Hohenburg he writes: <sup style="color: black;"><a href="#res-2" >2</a></sup>
+<blockquote> Those laws [of nature] are within the grasp of the human mind; God wanted us to recognize them by creating us after his own image so that we could share in his own thoughts. <sup>SOURCE MISSING SEE <a href="#wrldcatkepler">1</a></sup></blockquote>
+
+#### Trinity<sup style="color: black;"><a href="#res-3"> 3</a></sup>
+
+<iframe src="/Christianity/Science/resources/kepler-mysterium.pdf#page=69" width="100%" height="600px"></iframe>
+
+> "..., who in himself is the venerable Trinity."<sup><a href="#res-4"> 4</a></sup>
+
+
