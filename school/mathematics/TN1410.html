@@ -570,6 +570,70 @@ $$
 c_0+\sum_{k=1}^{\infty}\left(a_k\cos\left(\frac{k\pi x}{L}\right) + b_k\sin\left(\frac{k\pi x}{L}\right)\right)
 $$
 
+<h3 id='formpars'><a href="#formpars" target="_blank">Formula of Parseval</a></h3>
+
+<br>
+
+<div style="border: 3px solid #539bf5; padding: 10px; display: inline-block; gap: 10px;max-width: fit-content;">
+  $$
+  2|c_0|^2+\sum_{k=1}^{\infty}\left(|a_k|^2+|b_k|^2\right)=\frac{1}{L}\int_{-L}^L|f(x)|^2 \, \text{d}x
+  $$
+</div>
+<br>
+<h3 id='pointconv'><a href="#pointconv" target="_blank">Pointwise convergence</a></h3>
+<br>
+<div style="border: 3px solid red; padding: 10px; display: inline-block; gap: 10px;max-width: fit-content;">
+  <b>Definition</b>: <br>
+  Assume \(f\in\text{PC}[-L,L]\) and \(\hat{f}\) is the \(2L\) periodic extention of \(f\) to \(\mathbb{R}\). <br>
+  Assume \(\hat{f}\) and \(\hat{f}'\) are piecewise continuous on \(\mathbb{R}\). Then the geometric Fourier series of \(f\) converges in point \(x\) to: <br>
+  $$
+    \frac{1}{2}\left(\hat{f}(x-)+\hat{f}(x+)\right)
+  $$
+</div>
+<br>
+<br>
+<h2 id='fourtr'><a href="#fourtr" target="_blank">Fourier Transformation</a></h2>
+
+<h3 id='sinc'><a href="#sinc" target="_blank">Sinc function</a></h3>
+
+<div style="border: 3px solid red; padding: 10px; display: inline-block; gap: 10px;max-width: fit-content;">
+  <b>Definition</b>: <br>
+  \[ \text{sinc}(t)=\frac{\sin(t)}{t},\;t\neq 0,\; \text{sinc}(0)=1 \] <br>
+  <ul>
+    <li>\[\begin{flalign}\int_{-\infty}^{\infty}\text{sinc}(t)\, \text{d}t = \int_{-\infty}^{\infty} \frac{\sin(t)}{t} \,\text{d}t = \pi
+    &&\end{flalign}\]</li>
+    <li>\[\lim_{A\to\infty}\int_{-\infty}^{\infty} f(t)\cdot A \text{sinc}(At) \,\text{d}t = \lim_{A\to\infty}\int_{-\infty}^{\infty} f(t)\cdot\frac{\sin(At)}{t} \,\text{d}t = \pi f(0)\]</li>
+  </ul>
+</div>
+
+<h3 id='fourtrdef'><a href="#fourtrdef" target="_blank">Definition Fourier Transformation</a></h3>
+
+<div style="border: 3px solid red; padding: 10px; display: inline-block; gap: 10px;max-width: fit-content;">
+  <b>Definition</b>: <br>
+  Let \(f\) be a (complex) function of \(t\in\mathbb{R}\). <br> The Fouriertransformed of \(f(t)\) is defined by: \[\mathcal{F}\{f(t)\}(\omega)=\int_{-\infty}^{\infty} f(t)e^{-i\omega t} \,\text{d}t\]
+</div>
+<br><br>
+
+<h3 id='invfourtr'><a href="#invfourtr" target="_blank">Inverse Fourier Transformation</a></h3>
+<div style="border: 3px solid #539bf5; padding: 10px; display: inline-block; gap: 10px;max-width: fit-content;">
+  Let \(f\) satisfy the Dirichlet conditions and \(F(\omega)=\mathcal{F}\{f(t)\}\). If \(f\) is continuous in \(t\), then: \[f(t)=\frac{1}{2\pi}\int_{-\infty}^{\infty} F(\omega)e^{i\omega t} \,\text{d}\omega\]
+  if the integral converges we can write: <br>
+  \[\frac{1}{2\pi}\int_{-\infty}^{\infty} F(\omega)e^{i\omega t} \,\text{d}\omega = \mathcal{F}^{-1}\{F(\omega)\}\]
+</div>
+
+<h3 id='fourpars'><a href="#fourpars" target="_blank">Parseval for Fourier Transformation</a></h3>
+
+<div style="border: 3px solid #539bf5; padding: 10px; display: inline-block; gap: 10px;max-width: fit-content;">
+  Assume \(F=\mathcal{F}\{f(t)\}\). <br> The formula of Parseval reads as: \[\int_{-\infty}^{\infty} |f(t)|^2 \,\text{d}t = \frac{1}{2\pi}\int_{-\infty}^{\infty} |F(\omega)|^2 \,\text{d}\omega\]
+</div>
+
+<h3 id='realevun'><a href="#realevun" target="_blank">Real functions, even, uneven</a></h3>
+
+<div style="border: 3px solid #539bf5; padding: 10px; display: inline-block; gap: 10px;max-width: fit-content;">
+  Assume
+</div>
+
+
 
 
 
