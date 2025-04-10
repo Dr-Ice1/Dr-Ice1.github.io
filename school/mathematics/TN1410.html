@@ -631,13 +631,69 @@ $$
 
 <div style="border: 3px solid #539bf5; padding: 10px; display: inline-block; gap: 10px;max-width: fit-content;">
   Assume \(f(t)\) satisfies the Dirichlet conditions and \(F(\omega)=\mathcal{F}\{f(t)\}(\omega)\). <br>
-  Dan geldt: <br> \[\mathcal{F}\left{\overline{f(t)}\right}(\omega)=\overline{F(-\omega)}\]
+  Then: <br> \[\mathcal{F}\left\{\overline{f(t)}\right\}(\omega)=\overline{F(-\omega)}\] <br>
+  From this follows: <br>
+<ul>
+ <li>\(f\in\mathbb{R}\Leftrightarrow F(\omega)=\overline{F(-\omega)}\)</li>
+ <li>\(f\in\mathbb{R}\Leftrightarrow \mathfrak{Re}\{F\} \text{ is even and } \mathfrak{Im}\{F\} \text{ is odd.}\)</li>
+ <li>\(f\in\mathbb{R}\Leftrightarrow |F| \text{ is even and } \arg(F) \text{ is odd.}\)</li>
+</ul>
 </div>
 
+<br><br>
+
+<div style="border: 3px solid #539bf5; padding: 10px; display: inline-block; 
+gap: 10px;max-width: fit-content;">
+  Assume \(f\) satisfies the Dirichlet conditions and \(F(\omega)=\mathcal{F}\{f(t)\}(\omega)\). <br>
+  Then: <br> 
+  \[
+    F(\omega)=\int_{-\infty}^{\infty} f(t)\cos(\omega t) \,\text{d}t - i \int_{-\infty}^{\infty} f(t)\sin(\omega t) \,\text{d}t.
+  \]
+  If \(f\) is continuous in \(t\) then: <br>
+  \[
+  f(t) = \frac{1}{2\pi}\int_{-\infty}^{\infty} F(\omega)\cos(\omega t) \,\text{d}\omega + i \frac{1}{2\pi}\int_{-\infty}^{\infty} F(\omega)\sin(\omega t) \,\text{d}\omega
+  \]
+  From this follows: <br>
+  <ul>
+    <li>\(f\) is even \(\Leftrightarrow F\) is even. \[F(\omega)=2 \int_{0}^{\infty} f(t)\cos(\omega t) \,\text{d}t.\]</li>
+    <li>\(f\) is odd \(\Leftrightarrow F\) is odd. \[F(\omega)=-2i \int_{0}^{\infty} f(t)\sin(\omega t) \,\text{d}t.\]</li>
+  </ul>
+</div>
+<br>
+
+<h3 id='fourconv'><a href="#fourconv" target="_blank">Convolution for Fourier</a></h3>
 
 
+<div style="border: 3px solid red; padding: 10px; display: inline-block; 
+gap: 10px;max-width: fit-content;">
+  <b>Definition</b>: <br>
+  The convolution of \(f\) and \(g\) is: <br>
+  \[
+    (f*g)(t)=\int_{-\infty}^{\infty} f(t-\tau)g(\tau) \,\text{d}\tau = \int_{-\infty}^{\infty} f(\tau)g(t-\tau) \,\text{d}\tau 
+  \]
+</div>
+<br><br>
 
+<div style="border: 3px solid #539bf5; padding: 10px; display: inline-block; 
+gap: 10px;max-width: fit-content;">
+  \[
+  \mathcal{F}\{f*g\}=\mathcal{F}\{f\}\mathcal{F}\{g\}
+  \]
+  \[
+  \mathcal{F}\{fg\}=\frac{1}{2\pi}\mathcal{F}\{f\}*\mathcal{F}\{g\}
+  \]
+</div>
 
+<h3 id='dtft'><a href="#dtft" target="_blank">DTFT</a></h3>
+
+<div style="border: 3px solid red; padding: 10px; display: inline-block; 
+gap: 10px;max-width: fit-content;">
+  <b>Definition</b>: <br>
+  Assume \(s[n]\quad (n\in\mathbb{Z})\in \mathbb{C}\). The DTFT of \(s\) is: <br>
+  \[
+    \mathcal{F}_{\text{DTFT}}\{s[n]\}(\omega)=\sum_{n=-\infty}^{\infty}s[n]e^{-i\omega n}.
+  \]
+</div>
 
 
 </body>
