@@ -694,6 +694,111 @@ gap: 10px;max-width: fit-content;">
     \mathcal{F}_{\text{DTFT}}\{s[n]\}(\omega)=\sum_{n=-\infty}^{\infty}s[n]e^{-i\omega n}.
   \]
 </div>
+<br> <br>
+<div style="border: 3px solid red; padding: 10px; display: inline-block; 
+gap: 10px;max-width: fit-content;">
+  <b>Definition</b>: <br>
+  Inverse DTFT, \(S(\omega)=\mathcal{F}_{\text{DTFT}}\{s[n]\}(\omega)\):
+  \[
+    s[n]=\frac{1}{2\pi}\int_{\langle 2\pi\rangle}S(\omega)e^{i\omega n} \, \text{d}\omega
+    
+  \]
+</div>
+
+<h3 id='dft'><a href="#dft" target="_blank">DFT</a></h3>
+
+
+<div style="border: 3px solid red; padding: 10px; display: inline-block; 
+gap: 10px;max-width: fit-content;">
+  <b>Definition</b>: <br>
+  Assume \(\{s[n]\}_{n=0}^{N-1}\) is a finite sequence in \mathbb{C}, the DFT of \(s\) is:
+  \[
+    c_k=\frac{1}{N}\sum_{n=0}^{N-1}s[n]e^{-2\pi i\frac{nk}{N}}, \quad k\in\{0,1,cdots,N-1\}.
+  \]
+</div>
+<br> <br>
+<div style="border: 3px solid red; padding: 10px; display: inline-block; 
+gap: 10px;max-width: fit-content;">
+  <b>Definition</b>: <br>
+  Inverse DFT:
+  \[
+      s[n]=\sum_{k=0}^{N-1}c_ke^{2\pi i\frac{nk}{N}}.
+  \]
+</div>
+
+<h3 id='hf'><a href="#hf" target="_blank">Helpful for Fourier</a></h3>
+
+<ul>
+<li>Fourierseries: <br> Periodic functions or with finite interval</li>
+<li>Fouriertransformation: <br> \(\mathbb{C}\)-functions on \(\mathbb{R}\)</li>
+<li>DTFT: <br> Infinite sequence</li>
+<li>DFT: <br> Finite sequence with period or length \(N\)</li>
+</ul>
+
+
+<h2 id='curvilin'><a href="#curvilin" target="_blank">Curvilinear Coordinate System</a></h2>
+
+<h3 id='term'><a href="#term" target="_blank">Terminology</a></h3>
+
+Add in windows, lesson 13 slide 13
+
+<h3 id='imp'><a href="#imp" target="_blank">Some Important Definitions</a></h3>
+
+
+<div style="border: 3px solid red; padding: 10px; display: inline-block; 
+gap: 10px;max-width: fit-content;">
+  <b>Definition</b>: <br>
+  $$
+  \begin{align*}
+      f&=\left|\frac{\partial \mathbf{r}}{\partial u}
+          \right|,&
+      g&=\left|\frac{\partial \mathbf{r}}{\partial v}
+          \right|,&
+      h&=\left|\frac{\partial \mathbf{r}}{\partial w}
+          \right|.\\\\
+      \mathbf{\hat{u}}&=\frac{1}{f}\frac{\partial \mathbf{r}}{\partial u}, & \mathbf{\hat{v}}&=\frac{1}{g}\frac{\partial \mathbf{r}}{\partial v}, & \mathbf{\hat{w}}&=\frac{1}{h}\frac{\partial \mathbf{r}}{\partial w}. 
+  \end{align*}
+  $$
+</div>
+
+<h3 id='bp'><a href="#bp" target="_blank">Spherical and Cylindrical Coordinates as per this course</a></h3>
+
+
+<div style="border: 3px solid red; padding: 10px; display: inline-block; 
+gap: 10px;max-width: fit-content;">
+  <b>Definition</b>: <br>
+  $$s=r\sin(\theta)$$
+</div>
+
+
+<br><br>
+<div style="border: 3px solid red; padding: 10px; display: inline-block; 
+gap: 10px;max-width: fit-content;">
+  <b>Cylindrical coordinates</b>: <br>
+  $$
+  \begin{align*}
+    x&=s\cos(\phi)\\
+    y&=s\sin(\phi)\\
+    z&=z\\
+    \mathbf{r}(s,\phi,z)&=s\cos(\phi)\mathbf{i}+s\sin(\phi)\mathbf{j}+z \mathbf{k}
+  \end{align*}
+  $$
+</div>
+<br> <br>
+
+<div style="border: 3px solid red; padding: 10px; display: inline-block; 
+gap: 10px;max-width: fit-content;">
+  <b>Spherical coordinates</b>: <br>
+  $$
+  \begin{align*}
+    x&=r\cos(\phi)\sin(\theta)\\
+    y&=r\sin(\phi)\sin(\theta)\\
+    z&=r\cos(\theta)\\
+    \mathbf{r}(r,\theta,\phi)&=s\cos(\phi)\mathbf{i}+s\sin(\phi)\mathbf{j}+r\cos(\theta) \mathbf{k}
+  \end{align*}
+  $$
+</div>
+
 
 
 </body>
