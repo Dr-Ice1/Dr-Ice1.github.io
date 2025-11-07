@@ -1,5 +1,9 @@
 # De hiërarchie van de Armeense Apostolische Kerk
 
+<div class="quick-links">
+<h2><a href='/index.html'>Main Page</a></h2>
+</div>
+
 ## DEEL 1 – DE KERK EN HAAR GEESTELIJKE GEZAG
 
 De Kerk is een georganiseerde gemeenschap. Zij bestaat uit alle gedoopte personen die verenigd zijn in hetzelfde geloof, dezelfde Heilige Communie, dezelfde sacramenten en onder hetzelfde kerkelijk gezag. Degenen die dit kerkelijke gezag uitoefenen vormen de geestelijkheid, de dienaren van de Kerk die God dienen, de gelovigen onderwijzen en heiligen, en de Kerk besturen. Dit gezag om te dienen, te onderwijzen, te heiligen en te besturen wordt niet verkregen door verkiezing of benoeming, maar door een heilig sacrament dat Wijding en Consecratie wordt genoemd.
