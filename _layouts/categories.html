@@ -1,0 +1,37 @@
+---
+layout: default
+title: Categories
+---
+
+<main class="container">
+  <h1 class="page-title">Categories</h1>
+
+  {% assign cats_sorted = site.categories | sort %}
+  {% for c in cats_sorted %}
+    {% assign cat_name = c[0] %}
+    {% assign cat_posts = c[1] %}
+
+    <section class="block" id="cat-{{ cat_name | slugify }}">
+      <div class="block-head">
+        <h2 class="block-title">{{ cat_name }}</h2>
+        <span class="block-meta">{{ cat_posts | size }} posts</span>
+      </div>
+
+      <div class="post-list">
+        {% for post in cat_posts %}
+          <article class="post-card">
+            <h3 class="post-title"><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
+            <div class="post-submeta">
+              {% for tag in post.tags %}
+                <a class="tag" href="{{ "/tags.html#tag-" | append: tag | slugify | relative_url }}">#{{ tag }}</a>
+              {% endfor %}
+              <span class="dot">•</span>
+              {{ post.date | date: "%Y-%m-%d" }}
+            </div>
+          </article>
+        {% endfor %}
+      </div>
+    </section>
+  {% endfor %}
+</main>
+

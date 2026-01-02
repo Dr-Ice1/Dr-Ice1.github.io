@@ -1,0 +1,97 @@
+:root{
+  --bg:#0b0c10;
+  --card:#11131a;
+  --text:#e9edf1;
+  --muted:#aab3be;
+  --line:#222736;
+  --link:#7aa2ff;
+  --tag:#1b2236;
+  --max: 920px;
+}
+
+*{box-sizing:border-box}
+html,body{margin:0;padding:0}
+body{
+  font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Arial, "Apple Color Emoji","Segoe UI Emoji";
+  background:var(--bg);
+  color:var(--text);
+  line-height:1.6;
+}
+
+a{color:var(--link);text-decoration:none}
+a:hover{text-decoration:underline}
+
+.container{max-width:var(--max);margin:0 auto;padding:28px 18px}
+
+.site-hero{
+  border-bottom:1px solid var(--line);
+  padding:34px 18px 18px;
+  text-align:left;
+  max-width:var(--max);
+  margin:0 auto;
+}
+.site-title{margin:0;font-size:34px;letter-spacing:-0.02em}
+.site-subtitle{margin:8px 0 0;color:var(--muted)}
+
+.site-nav{margin-top:18px;display:flex;gap:10px;flex-wrap:wrap}
+.nav-link{
+  padding:8px 10px;
+  border:1px solid var(--line);
+  border-radius:10px;
+  background:transparent;
+  color:var(--text);
+}
+.nav-link.is-active{border-color:rgba(122,162,255,0.6)}
+
+.block{margin-top:26px}
+.block-head{
+  display:flex;justify-content:space-between;align-items:baseline;
+  border-bottom:1px solid var(--line);
+  padding-bottom:8px;margin-bottom:14px;
+}
+.block-title{margin:0;font-size:18px}
+.block-meta{color:var(--muted);font-size:13px}
+
+.post-list{display:grid;gap:12px}
+.post-card{
+  background:var(--card);
+  border:1px solid var(--line);
+  border-radius:14px;
+  padding:14px 14px;
+}
+.post-top{display:flex;justify-content:space-between;gap:14px;align-items:baseline}
+.post-title{margin:0;font-size:16px}
+.post-date{color:var(--muted);font-size:13px;white-space:nowrap}
+.post-tags{margin-top:10px;display:flex;gap:8px;flex-wrap:wrap}
+.tag{
+  display:inline-block;
+  background:var(--tag);
+  border:1px solid var(--line);
+  padding:4px 8px;
+  border-radius:999px;
+  font-size:12px;
+  color:var(--text);
+}
+.post-submeta{margin-top:6px;color:var(--muted);font-size:13px}
+.dot{margin:0 8px;color:var(--muted)}
+
+.page-title{margin:0 0 10px}
+
+.post{background:transparent}
+.post-header{margin-top:12px;border-bottom:1px solid var(--line);padding-bottom:14px}
+.kicker{color:var(--muted);font-size:12px;letter-spacing:0.08em;text-transform:uppercase}
+.post-h1{margin:6px 0 8px;font-size:30px;letter-spacing:-0.02em}
+.post-meta{color:var(--muted);font-size:13px}
+
+.post-body{padding-top:18px}
+.post-body img{max-width:100%;border-radius:12px;border:1px solid var(--line)}
+.post-body code{background:#0f1220;border:1px solid var(--line);padding:2px 6px;border-radius:8px}
+.post-body pre{background:#0f1220;border:1px solid var(--line);padding:12px;border-radius:12px;overflow:auto}
+
+.footer{
+  border-top:1px solid var(--line);
+  color:var(--muted);
+  padding:22px 0;
+  margin-top:36px;
+}
+

@@ -1,0 +1,31 @@
+---
+layout: default
+title: Tags
+---
+
+<main class="container">
+  <h1 class="page-title">Tags</h1>
+
+  {% assign tags_sorted = site.tags | sort %}
+  {% for t in tags_sorted %}
+    {% assign tag_name = t[0] %}
+    {% assign tag_posts = t[1] %}
+
+    <section class="block" id="tag-{{ tag_name | slugify }}">
+      <div class="block-head">
+        <h2 class="block-title">#{{ tag_name }}</h2>
+        <span class="block-meta">{{ tag_posts | size }} posts</span>
+      </div>
+
+      <div class="post-list">
+        {% for post in tag_posts %}
+          <article class="post-card">
+            <h3 class="post-title"><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
+            <div class="post-submeta">{{ post.category }} · {{ post.date | date: "%Y-%m-%d" }}</div>
+          </article>
+        {% endfor %}
+      </div>
+    </section>
+  {% endfor %}
+</main>
+
