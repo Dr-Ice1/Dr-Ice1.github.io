@@ -8,6 +8,30 @@
   --tag:#1b2236;
   --max: 920px;
 }
+/* Global link styling */
+a {
+  color: #4ea1ff;              /* clear blue */
+  text-decoration: underline;  /* always underlined */
+  text-underline-offset: 3px;
+}
+
+a:hover {
+  color: #79b8ff;
+}
+
+a:visited {
+  color: #7aa2ff;
+}
+
+/* Inside post content: slightly stronger */
+.post-body a {
+  color: #4ea1ff;
+  text-decoration-thickness: 1.5px;
+}
+
+.post-body a:hover {
+  text-decoration-thickness: 2px;
+}
 
 *{box-sizing:border-box}
 html,body{margin:0;padding:0}
