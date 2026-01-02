@@ -193,4 +193,4 @@ D. Parochies
 - Katholikosaat van het Grote Huis van Cilicië (Antelias, Libanon) – Autonome zetel voor bepaalde diaspora-bisdommen; erkent Moederzetel als primus inter pares. (eerste onder de gelijken)
 
 Source: https://www.facebook.com/photo/?fbid=1601215164568189&set=a.144759973547056
-![](hierarchy.jpg)
+![](/assets/images/hierarchy.jpg)
