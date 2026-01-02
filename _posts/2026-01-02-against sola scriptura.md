@@ -7,4 +7,4 @@ tags: [theology, philosophy, protestantism, sola scriptura]
 
 Read the PDF: [Against Sola Scriptura by Tanji](/assets/pdfs/Against Sola Scriptura by Tanji.pdf)
 
-
+Source: https://tanjivi.substack.com/p/the-transcendental-canon-argument
