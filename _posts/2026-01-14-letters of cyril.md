@@ -5,7 +5,7 @@ category: PDF's
 tags: [theology, philosophy, Church Fathers, St. Cyril, Christianity]
 ---
 
-Read the PDF: [Letters of St. Cyril of Alexandria 1-50](/assets/pdfs/Cyril of Alexandria Letters 51-100.pdf)
+Read the PDF: [Letters of St. Cyril of Alexandria 1-50](/assets/pdfs/Letters 1-50 Cyril of Alexandria etc Z-Library.pdf)
 
 
 <div class="pdf-embed">
