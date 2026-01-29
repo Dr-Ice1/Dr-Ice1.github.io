@@ -66,8 +66,6 @@ Here we read three scholars who all agree on the meaning, of _those who have no
 > 
 > Commentaries for [65.4](https://quranx.com/65.4) by Maududi – Sayyid Abul Ala Maududi – Tafhim al-Qur’an
 
-<br><br><br>
-
 <br>
 The reason for this supposed revelation of Allah is because:
 
@@ -76,6 +74,33 @@ The reason for this supposed revelation of Allah is because:
 > Commentaries for [65.4](https://quranx.com/65.4) by Wahidi – Asbab Al-Nuzul by Al-Wahidi
 
 Here the three categories are confirmed and the reason for this verse is because there were women concerned about the divorce laws for little children who have not yet menstruated. The reason they were asking this was because the marriage and divorce was already happening with small children and those people needed a ruling from Allah and his messenger.
+
+## Islamic Jurisprudence
+
+The Islamic jurisprudence talks about marriage according to the four jurisprudential schools, here is the source: https://dorar.net/feqhia/4093/%D8%A7%D9%84%D9%81%D8%B1%D8%B9-%D8%A7%D9%84%D8%AB%D8%A7%D9%86%D9%8A-%D8%AD%D9%83%D9%85-%D8%AA%D8%B2%D9%88%D9%8A%D8%AC-%D8%A7%D9%84%D8%B5%D8%BA%D9%8A%D8%B1%D8%A9
+
+The following can be read:
+
+> The first issue: A father marrying off his young virgin daughter.
+>
+> This is agreed upon by the four schools of Islamic jurisprudence: the Hanafi school and the Hanbalis and the Shafi'i school and the Maliki school: A father may marry off his young eldest daughter without her permission. And consensus was reported on that.
+>
+> The evidence:
+> First: From the Book,
+> God Almighty said: “And those of your women who have despaired of menstruation, if you have any doubt, then their waiting period is three months, and those who have not menstruated." 65:4. 
+>
+> The point of evidence
+>
+> is that God Almighty has ruled that the divorce of a young girl who has not yet menstruated is valid, and divorce only occurs within a valid marriage. Therefore, the verse implies the permissibility of marrying a young girl. And there is no authority with whom marriage is valid except if her father marries her off.
+>
+> From the Sunnah, Secondly:
+>
+> authority of Aisha, may God be pleased with her: “The Prophet, may God bless him and grant him peace, married her when she was six years old, and she was brought to him when she was nine, and she stayed with him for nine years.”
+>
+> The point of evidence:
+>
+> This is explicit in permitting a father to marry off his young daughter without her permission, because she has no right to give permission.
+
 
 ## Conclusion
 

@@ -27,10 +27,6 @@ Here are the most common arguments made:
 
 While these are only some of the arguments, they are the ones I personally heard many times. So now, let us address these points.
 
-
-<br>
-<br>
-
 ## Refutation
 
 ### Aisha was mature and not a child.
@@ -51,9 +47,6 @@ Now we know who can play with dolls, we look at what the sources say about Aisha
 > Chapter 10: It is permissible for a father to arrange the marriage of a young virgin, Book 16: The Book of Marriage  
 > [https://sunnah.com/muslim:1422c](https://sunnah.com/muslim:1422c)
 
-<br><br><br><br><br><br><br>
-
-<br><br>
 
 > It was narrated that 'Aishah said: "The Messenger of Allah married me when I was six, and consummated the marriage with me when I was nine, **and I used to play with dolls**."
 > 
@@ -76,9 +69,32 @@ This clearly shows he is not a perfect example for mankind to follow and demonst
 
 This claim is usually in reference to [Quran 4:6](https://quranx.com/4.6) which only addresses orphans. But when we look at [Quran 65:4](https://quranx.com/65.4) which is a Surah about divorce, we read something contradictory to this claim. The verse talks about the waiting period after marriage for three categories of women: 1) those who are too old to menstruate, 2) those who have not menstruated, and 3) those who are pregnant. There is a lot of debate surrounding the meaning of this verse. But for highly regarded Islamic scholars from centuries ago, there was consensus on the meaning of this verse. In [this article](https://salamapologetics.wordpress.com/2025/03/23/quran-654-the-verse-about-child-marriage/) we will look at the verse, examine it, and look at the interpretation of the scholars.  
 
-<br><br><br>
+## Islamic Jurisprudence on such matters
 
-<br>
+The Islamic jurisprudence talks about marriage according to the four jurisprudential schools, here is the source: https://dorar.net/feqhia/4093/%D8%A7%D9%84%D9%81%D8%B1%D8%B9-%D8%A7%D9%84%D8%AB%D8%A7%D9%86%D9%8A-%D8%AD%D9%83%D9%85-%D8%AA%D8%B2%D9%88%D9%8A%D8%AC-%D8%A7%D9%84%D8%B5%D8%BA%D9%8A%D8%B1%D8%A9
+
+The following can be read:
+
+> The first issue: A father marrying off his young virgin daughter.
+>
+> This is agreed upon by the four schools of Islamic jurisprudence: the Hanafi school and the Hanbalis and the Shafi'i school and the Maliki school: A father may marry off his young eldest daughter without her permission. And consensus was reported on that.
+>
+> The evidence:
+> First: From the Book,
+> God Almighty said: “And those of your women who have despaired of menstruation, if you have any doubt, then their waiting period is three months, and those who have not menstruated." 65:4. 
+>
+> The point of evidence
+>
+> is that God Almighty has ruled that the divorce of a young girl who has not yet menstruated is valid, and divorce only occurs within a valid marriage. Therefore, the verse implies the permissibility of marrying a young girl. And there is no authority with whom marriage is valid except if her father marries her off.
+>
+> From the Sunnah, Secondly:
+>
+> authority of Aisha, may God be pleased with her: “The Prophet, may God bless him and grant him peace, married her when she was six years old, and she was brought to him when she was nine, and she stayed with him for nine years.”
+>
+> The point of evidence:
+>
+> This is explicit in permitting a father to marry off his young daughter without her permission, because she has no right to give permission.
+
 
 ## Must watch
 
