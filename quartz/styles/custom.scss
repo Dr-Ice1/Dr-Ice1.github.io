@@ -1,3 +1,13 @@
 @use "./base.scss";
 
 // put your custom CSS here!
+/* Wrap long lines in code blocks (no horizontal scroll) */
+pre code {
+  white-space: pre-wrap;      /* preserve newlines, wrap long lines */
+  overflow-wrap: anywhere;    /* break very long tokens if needed */
+  word-break: break-word;     /* fallback for older browsers */
+}
+
+pre {
+  overflow-x: hidden;         /* hide horizontal scrollbar */
+}
