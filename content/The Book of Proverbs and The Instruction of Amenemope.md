@@ -133,7 +133,7 @@ Taking these differences into account we can see that the book of Proverbs was n
 > “For wealth certainly makes itself wings  
 > Like an eagle that flies toward the heavens” ([Proverbs 23:5, NASB](https://www.bibleref.com/Proverbs/23/Proverbs-23-5.html)).  
 >   
-> “They [dishonest riches] make themselves wings like geese,  
+> “They \[dishonest riches] make themselves wings like geese,  
 > And fly to heaven” (Amenemope x, 5)  
 >   
 > Again, we can see that no direct copying took place, although the two passages deal with a common theme and both use a simile related to birds. One difference is that, in context, Solomon is speaking of a general desire for increased wealth, while Amenemope is speaking specifically of ill-gotten gains. As for the bird-based simile, such a figure of speech seems to have been common in the Near East, as it is found in other ancient writings, too. The use of a bird in flight to illustrate the transitory nature of things is also used in [Hosea 9:11](https://www.bibleref.com/Hosea/9/Hosea-9-11.html).
@@ -282,7 +282,7 @@ IMPLICATIE: De verwevenheid van oude egyptische wijsheidsteksten en bijbelboeken
 
 To answer the argument we can define what God-inspired means by highlighting some criteria the Fathers have set:
 
-> We should leave things of that nature to [God](https://www.newadvent.org/cathen/06608a.htm) who created us, being most properly assured that **the [Scriptures](https://www.newadvent.org/bible/index.html) are indeed perfect, since they were spoken by the \[Word of God](https://www.newadvent.org/cathen/09328a.htm) and His Spirit**; but we, inasmuch as we are inferior to, and later in [existence](https://www.newadvent.org/cathen/05543b.htm) than, the [Word of God](https://www.newadvent.org/cathen/09328a.htm) and His Spirit, are on that very account destitute of the [knowledge](https://www.newadvent.org/cathen/08673a.htm) of His [mysteries](https://www.newadvent.org/cathen/10662a.htm).
+> We should leave things of that nature to [God](https://www.newadvent.org/cathen/06608a.htm) who created us, being most properly assured that **the [Scriptures](https://www.newadvent.org/bible/index.html) are indeed perfect, since they were spoken by the [Word of God](https://www.newadvent.org/cathen/09328a.htm) and His Spirit**; but we, inasmuch as we are inferior to, and later in [existence](https://www.newadvent.org/cathen/05543b.htm) than, the [Word of God](https://www.newadvent.org/cathen/09328a.htm) and His Spirit, are on that very account destitute of the [knowledge](https://www.newadvent.org/cathen/08673a.htm) of His [mysteries](https://www.newadvent.org/cathen/10662a.htm).
 > 
 > St. Irenaeus of Lyons, Against Heresies, Book II, Chapter 28.2
 
@@ -294,7 +294,7 @@ To answer the argument we can define what God-inspired means by highlighting som
 > 
 > Origen, De Principiis, Book I, Ch. 3.1
 
-> For I confess to your Charity that I have learned to yield this respect and [honour](https://www.newadvent.org/cathen/07462a.htm) only to the canonical books of Scripture: of these alone do I most firmly [believe](https://www.newadvent.org/cathen/02408b.htm) that the **authors were completely free from [error]**(https://www.newadvent.org/cathen/05525a.htm).
+> For I confess to your Charity that I have learned to yield this respect and [honour](https://www.newadvent.org/cathen/07462a.htm) only to the canonical books of Scripture: of these alone do I most firmly [believe](https://www.newadvent.org/cathen/02408b.htm) that the **authors were completely free from error**.
 > 
 > Augustine of Hippo, Letter 82, Ch. 1.3
 
