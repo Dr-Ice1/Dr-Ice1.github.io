@@ -11,3 +11,8 @@ pre code {
 pre {
   overflow-x: hidden;         /* hide horizontal scrollbar */
 }
+
+/* Make bold text also underlined */
+strong {
+  text-decoration: underline;
+}
