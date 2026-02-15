@@ -1,6 +1,10 @@
 ---
-title: Welcome to Quartz
+title: Homepage
 ---
 
-This is a blank Quartz installation.
-See the [documentation](https://quartz.jzhao.xyz) for how to get started.
+
+
+[[The Book of Proverbs and The Instruction of Amenemope]]
+
+
+
