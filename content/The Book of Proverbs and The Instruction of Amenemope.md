@@ -52,7 +52,7 @@ VOORBEELDEN VAN OVEREENKOMSTEN TUSSEN DE TWEE: 
 
 > (Amenemope, ch. 10): "Associate not with a passionate man, Nor approach him for conversation; Leap not to cleave to such an one; That terror carry thee not away."
 
-> (Proverbs 22:29): "[if you] You see a man quick in his work, before kings will he stand, before cravens, he will not stand."
+> (Proverbs 22:29): "\[if you] You see a man quick in his work, before kings will he stand, before cravens, he will not stand."
 
 > (Amenemope, ch. 30): "A scribe who is skillful in his business findeth worthy to be a courtier"
 
@@ -99,21 +99,21 @@ IMPLICATIE: De verwevenheid van oude egyptische wijsheidsteksten en bijbelboeken
 
 The differences between the texts[^1]:
 
-```markdown
-_Is There a Literary Dependence between the Writings?_
 
-While the similarities are apparent in a side-by-side comparison, there are also numerous differences and other factors that caution against overplaying the potential link.
+> _Is There a Literary Dependence between the Writings?_
+> 
+> While the similarities are apparent in a side-by-side comparison, there are also numerous differences and other factors that caution against overplaying the potential link.
+> 
+> (1) _Difference in length and structure_. The Egyptian writing is much longer than this section of Proverbs. _Amenemope_ has thirty chapters that range from seven to twenty-six lines, while the Sayings of the Wise has around four lines per strophe. In addition, in their efforts to find parallels to match the thirty chapters, scholars often make artificial or dubious divisions in the Sayings of the Wise. Moreover, interpreters must view the preamble as the first “saying” in order to arrive at thirty, but the preamble is more likely to be distinguished literarily from what follows. This is also the case in _Amenemope_, where a three-stanza (48-line) introduction sets the context for the writing prior to the first chapter.
+> 
+> (2) _Difference in order_. The topics are arranged in a different sequence in the two texts. The Sayings of the Wise follows a progression from poverty/wealth to life/death. _Amenemope_, however, appears to follow a rather different course, moving from one ethical topic to another, usually centering on the three themes of property rights, civil strife, and conduct at the temple.  
+> 
+> (3) _Difference in theme_. Only around one-third of the chapters of _Amenemope_ (11 out of 30) bear some thematic correspondence to the Sayings of the Wise. In addition, the themes of both writings may be found in other ANE writings, such as the Mesopotamian wisdom writing _Counsels of Wisdom_ or the Egyptian writing _The Instruction of Ptahhotep_. Forcing correspondence to _Amenemope_ means that the author draws _only_ from that Egyptian writing, where there may have been other ANE writings the author had familiarity with.
+> 
+> (4) _Difference in theology_. The Sayings of the Wise carry a monotheistic orientation clearly centered upon YHWH. The divine name appears five times (22:19, 23; 23:17; 24:18, 21), along with references to YHWH as redeemer (23:11) and as the one who weighs hearts (24:12). _Amenemope_ carries a polytheistic framework, with references to numerous gods within the Egyptian pantheon, including Horus, Re, Shu, and others. In addition, the polytheistic impulse of _Amenemope_ is based on transactional power dynamics: the official-in-training must behave carefully so as to give no offense to the capriciously powerful gods. The Sayings of the Wise, on the other hand, recognize God’s role as being on the side of the weak and marginalized: He will bring them justice as their advocate (22:23; 23:11) and will show them compassion even when they are enemies (24:18). YHWH is thus to be feared above all because of his sovereign power (23:17; 24:21).
+> 
+> (5) _Required emendation_. Much of the alleged dependence derives from a questionable understanding of the word _thirty_ in Proverbs 22:20 as correlating with the thirty chapters of _Amenemope_. The word often emended to “thirty” is understood best as a reference to the “officers” who are being trained in the royal court. The plural form of “the wise” in the heading “Sayings of the Wise” presupposes that under the divine inspiration of the biblical text the author of Proverbs 22:17–24:22—whether Solomon or a later sage—is reshaping material from multiple intellectuals. For this reason, _Amenemope_, together with other wisdom writings available to the final author(s) of Proverbs, may have been drawn upon and reworked without necessitating a charge of “plagiarism” on outside sources.
 
-(1) _Difference in length and structure_. The Egyptian writing is much longer than this section of Proverbs. _Amenemope_ has thirty chapters that range from seven to twenty-six lines, while the Sayings of the Wise has around four lines per strophe. In addition, in their efforts to find parallels to match the thirty chapters, scholars often make artificial or dubious divisions in the Sayings of the Wise. Moreover, interpreters must view the preamble as the first “saying” in order to arrive at thirty, but the preamble is more likely to be distinguished literarily from what follows. This is also the case in _Amenemope_, where a three-stanza (48-line) introduction sets the context for the writing prior to the first chapter.
-
-(2) _Difference in order_. The topics are arranged in a different sequence in the two texts. The Sayings of the Wise follows a progression from poverty/wealth to life/death. _Amenemope_, however, appears to follow a rather different course, moving from one ethical topic to another, usually centering on the three themes of property rights, civil strife, and conduct at the temple.  
-
-(3) _Difference in theme_. Only around one-third of the chapters of _Amenemope_ (11 out of 30) bear some thematic correspondence to the Sayings of the Wise. In addition, the themes of both writings may be found in other ANE writings, such as the Mesopotamian wisdom writing _Counsels of Wisdom_ or the Egyptian writing _The Instruction of Ptahhotep_. Forcing correspondence to _Amenemope_ means that the author draws _only_ from that Egyptian writing, where there may have been other ANE writings the author had familiarity with.
-
-(4) _Difference in theology_. The Sayings of the Wise carry a monotheistic orientation clearly centered upon YHWH. The divine name appears five times (22:19, 23; 23:17; 24:18, 21), along with references to YHWH as redeemer (23:11) and as the one who weighs hearts (24:12). _Amenemope_ carries a polytheistic framework, with references to numerous gods within the Egyptian pantheon, including Horus, Re, Shu, and others. In addition, the polytheistic impulse of _Amenemope_ is based on transactional power dynamics: the official-in-training must behave carefully so as to give no offense to the capriciously powerful gods. The Sayings of the Wise, on the other hand, recognize God’s role as being on the side of the weak and marginalized: He will bring them justice as their advocate (22:23; 23:11) and will show them compassion even when they are enemies (24:18). YHWH is thus to be feared above all because of his sovereign power (23:17; 24:21).
-
-(5) _Required emendation_. Much of the alleged dependence derives from a questionable understanding of the word _thirty_ in Proverbs 22:20 as correlating with the thirty chapters of _Amenemope_. The word often emended to “thirty” is understood best as a reference to the “officers” who are being trained in the royal court. The plural form of “the wise” in the heading “Sayings of the Wise” presupposes that under the divine inspiration of the biblical text the author of Proverbs 22:17–24:22—whether Solomon or a later sage—is reshaping material from multiple intellectuals. For this reason, _Amenemope_, together with other wisdom writings available to the final author(s) of Proverbs, may have been drawn upon and reworked without necessitating a charge of “plagiarism” on outside sources.
-```
 
 Taking these differences into account we can see that the book of Proverbs was not necessarily copying from Amenemope. There is further evidence that Proverbs could be viewed as similar to other texts[^2]:
 
