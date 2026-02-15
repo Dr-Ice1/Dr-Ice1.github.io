@@ -117,33 +117,32 @@ The differences between the texts[^1]:
 
 Taking these differences into account we can see that the book of Proverbs was not necessarily copying from Amenemope. There is further evidence that Proverbs could be viewed as similar to other texts[^2]:
 
-```Markdown
-Here is one example of a similarity between Proverbs and the Instruction of Amenemope:  
-  
-“Do not rob the poor because he is poor,  
-Or crush the afflicted at the gate” ([Proverbs 22:22, NASB](https://www.bibleref.com/Proverbs/22/Proverbs-22-22.html)).  
-  
-“Guard yourself from robbing the poor  
-From being violent to the weak” (Amenemope iv, 4–5).  
-  
-Obviously, these two passages contain similar thoughts. But, just as obviously, there is no direct copying involved. Also, it doesn’t follow that one author must have borrowed from the other. Isn’t it possible that two people, writing rules of wisdom, would both touch on the necessity of justice for the downtrodden?  
-  
-Another example:  
-  
-“For wealth certainly makes itself wings  
-Like an eagle that flies toward the heavens” ([Proverbs 23:5, NASB](https://www.bibleref.com/Proverbs/23/Proverbs-23-5.html)).  
-  
-“They [dishonest riches] make themselves wings like geese,  
-And fly to heaven” (Amenemope x, 5)  
-  
-Again, we can see that no direct copying took place, although the two passages deal with a common theme and both use a simile related to birds. One difference is that, in context, Solomon is speaking of a general desire for increased wealth, while Amenemope is speaking specifically of ill-gotten gains. As for the bird-based simile, such a figure of speech seems to have been common in the Near East, as it is found in other ancient writings, too. The use of a bird in flight to illustrate the transitory nature of things is also used in [Hosea 9:11](https://www.bibleref.com/Hosea/9/Hosea-9-11.html).
-```
+
+> Here is one example of a similarity between Proverbs and the Instruction of Amenemope:  
+>   
+> “Do not rob the poor because he is poor,  
+> Or crush the afflicted at the gate” ([Proverbs 22:22, NASB](https://www.bibleref.com/Proverbs/22/Proverbs-22-22.html)).  
+>   
+> “Guard yourself from robbing the poor  
+> From being violent to the weak” (Amenemope iv, 4–5).  
+>   
+> Obviously, these two passages contain similar thoughts. But, just as obviously, there is no direct copying involved. Also, it doesn’t follow that one author must have borrowed from the other. Isn’t it possible that two people, writing rules of wisdom, would both touch on the necessity of justice for the downtrodden?  
+>   
+> Another example:  
+>   
+> “For wealth certainly makes itself wings  
+> Like an eagle that flies toward the heavens” ([Proverbs 23:5, NASB](https://www.bibleref.com/Proverbs/23/Proverbs-23-5.html)).  
+>   
+> “They [dishonest riches] make themselves wings like geese,  
+> And fly to heaven” (Amenemope x, 5)  
+>   
+> Again, we can see that no direct copying took place, although the two passages deal with a common theme and both use a simile related to birds. One difference is that, in context, Solomon is speaking of a general desire for increased wealth, while Amenemope is speaking specifically of ill-gotten gains. As for the bird-based simile, such a figure of speech seems to have been common in the Near East, as it is found in other ancient writings, too. The use of a bird in flight to illustrate the transitory nature of things is also used in [Hosea 9:11](https://www.bibleref.com/Hosea/9/Hosea-9-11.html).
 
 Also:
 
-```markdown
-According to [Ecclesiastes 12:9](https://www.bibleref.com/Ecclesiastes/12/Ecclesiastes-12-9.html), Solomon “pondered and searched out and set in order many proverbs,” which could mean he was a compiler of proverbs from many different cultures.
-```
+
+> According to [Ecclesiastes 12:9](https://www.bibleref.com/Ecclesiastes/12/Ecclesiastes-12-9.html), Solomon “pondered and searched out and set in order many proverbs,” which could mean he was a compiler of proverbs from many different cultures.
+
 
 We can assume that many proverbs are from different people in different times as is stated in the book itself[^3]:
 
@@ -163,9 +162,9 @@ We can assume that many proverbs are from different people in different times as
 
 Also Michael S. Heiser notes[^3]:
 
-```markdown
-At least one anonymous sage did contribute to Proverbs. Portions of Proverbs 22–23 come from an Egyptian wisdom text composed before Solomon’s lifetime, The Instruction of Amenemope.
-```
+
+> At least one anonymous sage did contribute to Proverbs. Portions of Proverbs 22–23 come from an Egyptian wisdom text composed before Solomon’s lifetime, The Instruction of Amenemope.
+
 
 There is, as was the case historically, still debate about the attributors of the Book of Proverbs. There are also superscriptions which suggest different authors[^4]:
 
@@ -179,23 +178,19 @@ There is, as was the case historically, still debate about the attributors of th
 
 Again[^4]:
 
-```markdown
-Note that the Hebrew word translated “composed” in v. 32 literally means “spoke.” The verse does not require that Solomon personally created or invented 3,000 proverbs, merely that he spoke them.
-```
+> Note that the Hebrew word translated “composed” in v. 32 literally means “spoke.” The verse does not require that Solomon personally created or invented 3,000 proverbs, merely that he spoke them.
 
 The verses from Proverbs which can be linked to Amenemope are in Proverbs 22:17-24:22, but verses 22:23, 26, 27; 23:13, 14 do not parallel the Egyptian text[^4].
 
 A. K. Helmbold argues that both texts could be common to a more ancient text[^4]:
 
-```markdown
-Various studies of the lexicography of _Amenemope_ tend to indicate the Egypto-Semitic vocabulary belongs to the late stage of the Egyptian language. There are some indications that _Amenemope_ is closer to the LXX than to the MT. Although debated by some, the use of Semitic idioms could also indicate the precedence of Proverbs. The section Prov. 22:17—23:14 has verses that have close affinities to passages in other sections. If Proverbs seems to collect sayings scattered in _Amenemope_, some scattered passages in Proverbs seem to be collected in _Amenemope_. Thus the arguments pro and con seem about evenly balanced. A mediating position—that the Egyptian work and Proverbs both used a common ANE oral tradition or perhaps even a common Vorlage—is a possibility. Father Murphy’s view that the Hebrew passage may simply be using the Egyptian “thirty chapters” as a model rather than a direct source also merits consideration. R. B. Y. Scott expresses a similar view.[](https://biblicalscholarship.wordpress.com/2022/07/01/book-of-proverbs-authorship/#fn-5404-zeb-35838 "Read footnote.")
-```
+> Various studies of the lexicography of _Amenemope_ tend to indicate the Egypto-Semitic vocabulary belongs to the late stage of the Egyptian language. There are some indications that _Amenemope_ is closer to the LXX than to the MT. Although debated by some, the use of Semitic idioms could also indicate the precedence of Proverbs. The section Prov. 22:17—23:14 has verses that have close affinities to passages in other sections. If Proverbs seems to collect sayings scattered in _Amenemope_, some scattered passages in Proverbs seem to be collected in _Amenemope_. Thus the arguments pro and con seem about evenly balanced. A mediating position—that the Egyptian work and Proverbs both used a common ANE oral tradition or perhaps even a common Vorlage—is a possibility. Father Murphy’s view that the Hebrew passage may simply be using the Egyptian “thirty chapters” as a model rather than a direct source also merits consideration. R. B. Y. Scott expresses a similar view.[footnote](https://biblicalscholarship.wordpress.com/2022/07/01/book-of-proverbs-authorship/#fn-5404-zeb-35838 "Read footnote.")
 
 To summarize, there are literary and thematic differences between the book of Proverbs and Amenemope. When looking at both texts in their entirety, the similarities are minor and certainly not the only connection which can be drawn from the many writings during that time period. There is also a major contradiction between the texts when looking from a theological perspective, monotheism contrasted with polytheism. To say then, that Proverbs plagiarizes from Amenemope is a stretch, because there are some similarities between some of the 'wisdoms'. Also taking into consideration that Solomon could have been a compiler of different works is another proof against the contention that Proverbs is based largely on Amenemope.
 
 To address the claim:
 
-```markdown
+```
 Er zijn dusdanig veel overeenkomsten tussen deze tekst en het bijbelboek spreuken dat wetenschappers aannemen dat het bijbelboek spreuken enorm veel inspiratie heeft genomen van deze oude egyptische tekst
 ```
 
@@ -245,14 +240,11 @@ The meaning of τρισσός or τριϲϲωϲ or τρισσῶς is threefold[
 > Origen, De Principiis, Book IV.11
 
 Origen here understands the correct wording of the verse and interprets it through his framework.
-
 ### Answer to the claim
 
 So to answer the claim:
 
-```markdown
-Dit zijn allemaal vertalingen die compleet andere woorden gebruiken voor het woord wat er in het hebreeuws echt stond. namelijk het woord שָׁלִישִׁ֑ים (šā·lî·šîm) wat gewoon letterlijk ‘30’ betekent. In de septuagint wordt het vertaald met τρισσῶς (drievoud) in de kjv met excellent things en in de herziene statenvertaling met heerlijke dingen. Dit zijn allemaal ruime interpretaties die verschillen van elkaar en dat komt omdat tot honderd jaar geleden niemand echt wist wat het woord ‘30’ in deze zin deed en daarom werd het dus heel vrij geïnterpreteerd. 
-```
+> Dit zijn allemaal vertalingen die compleet andere woorden gebruiken voor het woord wat er in het hebreeuws echt stond. namelijk het woord שָׁלִישִׁ֑ים (šā·lî·šîm) wat gewoon letterlijk ‘30’ betekent. In de septuagint wordt het vertaald met τρισσῶς (drievoud) in de kjv met excellent things en in de herziene statenvertaling met heerlijke dingen. Dit zijn allemaal ruime interpretaties die verschillen van elkaar en dat komt omdat tot honderd jaar geleden niemand echt wist wat het woord ‘30’ in deze zin deed en daarom werd het dus heel vrij geïnterpreteerd. 
 
 Even though current translators have not understood the verse and why the word τρισσός is there, the early Christians, before their time, have seen, read, and interpreted the verse with no contention or ambiguity about the wording. Which means there was no confusion and the translation was not 'freely interpreted', the correct translation was used for the word τρισσός and with the word, the early fathers were able to interpret the verse and explain it.
  
