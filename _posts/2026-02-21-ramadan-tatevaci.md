@@ -1,4 +1,13 @@
-
+---
+title: Gregory of Tatev against Ramadan
+date: 2026-02-12
+tags:
+  - Islam
+  - Tatevaci
+  - Ramadan
+aliases:
+  - Why Ramadan is not fasting
+---
 # Against the Saracens
 ## N — The fourteenth error of the Saracens.
 
