@@ -39,7 +39,7 @@ eat]; then, therefore, you do not have fasting.\
 &emsp; Again, during the whole year you eat during the day, and not at
 night. But during the month of Ramadan, you eat at night, and not
 during the day. Evidently, as you do not keep \[fasting] in other
-months, likewise that month \[Ramadan] is not a time for fasting.
+months, likewise that month \[Ramadan] is not a time for fasting.\
 &emsp; Again, your fasting is not thirty days, but one day, because
 though you fast during the day, you break it in the evening and feast,
 and again on the following day you fast.\
