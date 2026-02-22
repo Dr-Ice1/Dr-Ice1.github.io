@@ -15,9 +15,9 @@ const config: QuartzConfig = {
     analytics: {
       provider: "plausible",
     },
-    locale: "nl-NL",
+    locale: "en-NL",
     baseUrl: "quartz.alexam.nl",
-    ignorePatterns: ["private", "templates", ".obsidian", "_templates"],
+    ignorePatterns: ["private", "templates", ".obsidian", "_templates", "!(PDFs)**/!(*.md)"],
     defaultDateType: "modified",
     theme: {
       fontOrigin: "googleFonts",
