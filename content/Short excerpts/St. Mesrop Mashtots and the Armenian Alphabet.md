@@ -1,6 +1,6 @@
 ---
 title: St. Mesrop Mashtots and the Armenian Alphabet
-date: 21-02-2026
+date: 2026-02-22
 tags:
   - Christianity
   - Church
