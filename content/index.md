@@ -7,7 +7,7 @@ title: Homepage
 
 - [[The Book of Proverbs and The Instruction of Amenemope]] 
 
-# Excerpts
+## Excerpts
 
 - [[St. Mesrop Mashtots and the Armenian Alphabet]]
 - [[Grigor Tatevaci against Ramadan]]
