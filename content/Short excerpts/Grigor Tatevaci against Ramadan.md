@@ -13,7 +13,7 @@ aliases:
 
 Who do not have the old fasts of the Jews, nor the new \[fasts of the]
 Christians.\
-&nbsp; We shall see, first, the differences between foods: Which are for
+&nbsp;&nbsp;&nbsp; We shall see, first, the differences between foods: Which are for
 fasting, and which are for feasting? We say that all \[edible] objects
 are divided into two kinds: those with breath and those without
 breath. That is, the living and the lifeless. Now, those that breathe,
