@@ -17,7 +17,7 @@ const config: QuartzConfig = {
     },
     locale: "en-US",
     baseUrl: "quartz.alexam.nl",
-    ignorePatterns: ["private", "templates", ".obsidian", "_templates", "!(PDFs)**/!(*.md)"],
+    ignorePatterns: ["private", "templates", ".obsidian", "_templates"],
     defaultDateType: "modified",
     theme: {
       fontOrigin: "googleFonts",
