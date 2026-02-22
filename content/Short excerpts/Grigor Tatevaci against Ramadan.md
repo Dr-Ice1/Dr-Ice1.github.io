@@ -12,7 +12,7 @@ aliases:
 ## N — The fourteenth error of the Saracens.
 
 Who do not have the old fasts of the Jews, nor the new \[fasts of the]
-Christians.
+Christians.\
 	We shall see, first, the differences between foods: Which are for
 fasting, and which are for feasting? We say that all \[edible] objects
 are divided into two kinds: those with breath and those without
