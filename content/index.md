@@ -2,22 +2,11 @@
 title: Homepage
 ---
 
-## Articles
+# [[Articles/index|Articles]]
 
-### Islam
+# [[Short excerpts/index|Short Excerpts]]
 
-- [[Articles/Islam/index|index]]
+# [[PDFs/index|PDFs]]
 
-### Christianity
 
-- [[The Book of Proverbs and The Instruction of Amenemope]] 
-
-## Excerpts
-
-- [[St. Mesrop Mashtots and the Armenian Alphabet]]
-- [[Grigor Tatevaci against Ramadan]]
-
-### PDF's
-
-- [[PDF index]]
 
