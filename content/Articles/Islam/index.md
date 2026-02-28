@@ -2,5 +2,4 @@
 title: Islam
 ---
 
-# Islam
 
