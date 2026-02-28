@@ -6,11 +6,6 @@ title: Homepage
 
 ### Islam
 
-```dataview
-list file.link
-from "Articles/Islam"
-sort file.name asc
-```
 
 ### Christianity
 
