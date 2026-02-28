@@ -1,7 +1,7 @@
 ---
 title: The Most Holy Trinity
 date: 2026-02-28
-draft: false
+draft: true
 tags:
   - Bible
   - Christianity
