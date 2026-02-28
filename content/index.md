@@ -6,6 +6,7 @@ title: Homepage
 
 ### Islam
 
+- [[Articles/Islam/index|index]]
 
 ### Christianity
 
@@ -16,4 +17,7 @@ title: Homepage
 - [[St. Mesrop Mashtots and the Armenian Alphabet]]
 - [[Grigor Tatevaci against Ramadan]]
 
+### PDF's
+
+- [[PDF index]]
 
