@@ -1,0 +1,18 @@
+---
+layout: post
+title: Against Sola Scriptura by Tanji
+category: Protestantism
+tags:
+  - theology
+  - philosophy
+  - protestantism
+  - sola scriptura
+date: 2026-01-02
+---
+
+Read the PDF: [[Against Sola Scriptura by Tanji.pdf]]
+
+Source: https://tanjivi.substack.com/p/the-transcendental-canon-argument
+
+
+![[Against Sola Scriptura by Tanji.pdf]]

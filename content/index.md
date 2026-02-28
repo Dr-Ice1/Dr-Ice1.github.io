@@ -1,7 +1,6 @@
 ---
 title: Homepage
 ---
-# Index
 
 ## Articles
 
