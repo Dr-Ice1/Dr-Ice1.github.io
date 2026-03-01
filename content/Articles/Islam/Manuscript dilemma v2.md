@@ -104,7 +104,7 @@ P75 manuscript, John 1:1, dated late 2nd century to early 3rd century.[^2]
 ![[ga05-john.png]]
 GA05 manuscript, John 1:1, dated 5th century.[^3]
 
-### Luke 9:22
+## Luke 9:22
 
 ![[P75-luke.png]]
 P75 manuscript, Luke 9:22, dated late 2nd century to early 3rd century.[^2]
@@ -112,7 +112,7 @@ P75 manuscript, Luke 9:22, dated late 2nd century to early 3rd century.[^2]
 ![[ga05-luke.png]]
 GA05 manuscript, Luke 9:22, dated 5th century.[^3]
 
-### Matthew 6:26
+## Matthew 6:26
 
 ![[ga01-matthew.png]]
 GA01 manuscript, Matthew 6:26, dated 4th century.[^4]
