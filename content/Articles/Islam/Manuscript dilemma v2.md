@@ -106,7 +106,7 @@ GA05 manuscript, John 1:1, dated 5th century.[^3]
 
 ## Luke 9:22
 
-![[P75-luke.png]]
+![[p75-luke.png]]
 P75 manuscript, Luke 9:22, dated late 2nd century to early 3rd century.[^2]
 
 ![[ga05-luke.png]]
