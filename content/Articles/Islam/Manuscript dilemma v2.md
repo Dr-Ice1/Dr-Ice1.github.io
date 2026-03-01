@@ -54,6 +54,7 @@ So in these verses the only logical conclusion that can be drawn is that the Tor
 For more information about what the Quran says about the Gospel:
 
 <iframe width="720" height="400" src="https://www.youtube.com/embed/46e7bfIlauE?si=gTpkWy7oQ9NRENfQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+In the case one is not convinced even after all the evidence, and still insists that the Injeel and Torah and Zabur have been corrupted, they find themselves in yet another problematic position. For the argument proving that position makes Islam an unreliable religion see [[unreliability of islam]]
 
 # P2
 

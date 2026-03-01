@@ -10,8 +10,6 @@ tags:
   - quran
 date: 2026-01-02
 ---
-
-
 # Muhammad the false prophet by Islamic standards
 
 ### Source:

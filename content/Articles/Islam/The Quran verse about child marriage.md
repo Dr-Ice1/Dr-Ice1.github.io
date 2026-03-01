@@ -10,7 +10,6 @@ tags:
   - quran
 date: 2026-01-02
 ---
-
 # Introduction
 
 In this article we will examine Surah 65 verse 4. First we will look at the context around the Surah, look at the verse, do some exegesis and look at some scholars, and finally draw a conclusion.
