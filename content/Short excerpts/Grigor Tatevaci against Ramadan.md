@@ -2,9 +2,9 @@
 title: Gregory of Tatev against Ramadan
 date: 2026-02-12
 tags:
-  - Islam
   - Tatevaci
   - Ramadan
+  - islam
 aliases:
   - Why Ramadan is not fasting
 ---
