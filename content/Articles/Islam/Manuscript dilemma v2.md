@@ -51,6 +51,10 @@ All Muslims will agree that the Gospel was given to Jesus. This premise has two 
 
 So in these verses the only logical conclusion that can be drawn is that the Torah and Gospel were written in books. There are also many proofs of this in the hadiths which will not be mentioned here (cf. Sahih al-Bukhari 6819, Sunan Abi Dawud 4449, Sunan Abi Dawud 4736).
 
+For more information about what the Quran says about the Gospel:
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/46e7bfIlauE?si=gTpkWy7oQ9NRENfQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 # P2
 
 The Gospel contradicts the Quran on major core theological teachings, which none will dispute, but nevertheless here are some contradictory theological doctrines and historical facts:
