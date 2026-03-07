@@ -9,6 +9,14 @@ tags:
   - Trinity
   - philosophy
 ---
+
+To add:
+
+https://youtu.be/uEnC9FelHL8?t=2226&is=oEiGqTc3WM3VVa07
+
+When Christ is called God this is not the same as when moses or angels etc are called god because Christ is called the God who created all things!!
+
+
 # Introduction
 
 This is an article to highlight the Holy Trinity in the Bible, philosophy, and the Church Fathers.
