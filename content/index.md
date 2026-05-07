@@ -1,17 +1,6 @@
 ---
-title: Sources
+title: Welcome to Quartz
 ---
-# Church Fathers
 
-## Armenian
-
-## Cappadocian
-
-## Early Church
-
-## Desert Fathers
-
-# Councils
-
-# PDFs
-
+This is a blank Quartz installation.
+See the [documentation](https://quartz.jzhao.xyz) for how to get started.
