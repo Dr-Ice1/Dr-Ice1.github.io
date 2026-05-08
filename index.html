@@ -4,6 +4,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>PDF Library</title>
+
   <style>
     :root {
       --bg: #f7f7f5;
@@ -51,6 +52,16 @@
       max-width: 1050px;
       margin: 0 auto;
       padding: 20px;
+    }
+
+    .category-section {
+      margin-bottom: 42px;
+    }
+
+    .category-title {
+      margin: 0 0 8px;
+      font-size: 1.5rem;
+      letter-spacing: -0.04em;
     }
 
     .pdf-grid {
@@ -173,6 +184,7 @@
     }
   </style>
 </head>
+
 <body>
   <div id="app"></div>
 
@@ -180,19 +192,24 @@
     const pdfs = [
       {
         title: "St. Cyril of Alexandria – Letters 1-50",
+        category: "Early Fathers",
         description: "The Father of the Church – Volume 76",
         file: "pdfs/Letters 1-50 Cyril of Alexandria etc Z-Library.pdf"
       },
+
       {
         title: "St. Cyril of Alexandria – Letters 51-110",
+        category: "Early Fathers",
         description: "The Father of the Church – Volume 77",
         file: "pdfs/Cyril of Alexandria Letters 51-110.pdf"
       },
+
       {
         title: "St. Basil the Great – Against Eunomius",
+        category: "Cappadocian Fathers",
         description: "The Fathers of the Church – The Catholic university of America press",
         file: "pdfs/saint-basil-of-caesarea-against-eunomius-fathers-of-3.pdf"
-      },
+      }
     ];
 
     const app = document.getElementById("app");
@@ -211,6 +228,8 @@
     function renderHome() {
       document.title = "PDF Library";
 
+      const categories = [...new Set(pdfs.map(pdf => pdf.category))];
+
       app.innerHTML = `
         <header>
           <h1>PDF Library</h1>
@@ -218,22 +237,45 @@
         </header>
 
         <main>
-          <section class="pdf-grid">
-            ${pdfs.map((pdf) => `
-              <article class="pdf-card">
-                <h2>${escapeHtml(pdf.title)}</h2>
-                <p>${escapeHtml(pdf.description)}</p>
-                <div class="actions">
-                  <a class="button primary" href="?pdf=${encodeURIComponent(pdf.file)}">View PDF</a>
-                  <a class="button secondary" href="${escapeHtml(pdf.file)}" download>Download</a>
-                </div>
-              </article>
-            `).join("")}
-          </section>
+          ${categories.map(category => `
+            <section class="category-section">
+
+              <h2 class="category-title">
+                ${escapeHtml(category)}
+              </h2>
+
+              <section class="pdf-grid">
+                ${pdfs
+                  .filter(pdf => pdf.category === category)
+                  .map((pdf) => `
+                    <article class="pdf-card">
+                      <h2>${escapeHtml(pdf.title)}</h2>
+
+                      <p>${escapeHtml(pdf.description)}</p>
+
+                      <div class="actions">
+                        <a class="button primary"
+                           href="?pdf=${encodeURIComponent(pdf.file)}">
+                           View PDF
+                        </a>
+
+                        <a class="button secondary"
+                           href="${escapeHtml(pdf.file)}"
+                           download>
+                           Download
+                        </a>
+                      </div>
+                    </article>
+                  `).join("")}
+              </section>
+
+            </section>
+          `).join("")}
         </main>
 
         <footer>
-          Add new PDF files inside the <strong>pdfs</strong> folder, then add them to the list in the script.
+          Add new PDF files inside the <strong>pdfs</strong> folder,
+          then add them to the list in the script.
         </footer>
       `;
     }
@@ -250,14 +292,33 @@
 
       app.innerHTML = `
         <main class="viewer-page">
+
           <div class="viewer-topbar">
-            <div class="viewer-title">${escapeHtml(pdf.title)}</div>
+
+            <div class="viewer-title">
+              ${escapeHtml(pdf.title)}
+            </div>
+
             <div class="viewer-actions">
-              <a class="button secondary" href="./">Back</a>
-              <a class="button primary" href="${escapeHtml(pdf.file)}" download>Download PDF</a>
+
+              <a class="button secondary" href="./">
+                Back
+              </a>
+
+              <a class="button primary"
+                 href="${escapeHtml(pdf.file)}"
+                 download>
+                 Download PDF
+              </a>
+
             </div>
           </div>
-          <iframe src="${escapeHtml(pdf.file)}" title="${escapeHtml(pdf.title)}"></iframe>
+
+          <iframe
+            src="${escapeHtml(pdf.file)}"
+            title="${escapeHtml(pdf.title)}">
+          </iframe>
+
         </main>
       `;
     }
