@@ -1,6 +1,0 @@
-- run: npx quartz build
-- run: touch public/.nojekyll
-
-- uses: actions/upload-pages-artifact@v3
-  with:
-    path: public
